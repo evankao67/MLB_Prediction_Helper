@@ -1,13 +1,11 @@
-Match : Match_ID(PK), Time,  TeamA, TeamB, TeamASP, TeamBSP,  Location_ID
+Match : Match_ID(PK), Time,  TeamA, TeamB, TeamASP, TeamBSP, A_odds, B_odds, Location_ID
 
 Player： Player_ID(PK), Player_Name, Num, Age, Team(FK), Salary, P_or_B
  
 Pitcher : Player_ID(PK, FK), Position , ERA, WHIP, IP, Win, Loss, Save, P_or_B(FK)
 
-Batterr : Player_ID(PK, FK), Position , AVG, HR, Hits, OPS, RBI, P_or_B(FK)
+Batter : Player_ID(PK, FK), Position , AVG, HR, Hits, OPS, RBI, P_or_B(FK)
 
 Team :  Team_Name(PK), Team_Locate
-
-Lottery : Match_ID(PK, FK), A_odds, B_odds,  TeamASP, TeamBSP,
 
 Rating :  Match_ID(PK, FK), TeamA_rating, TeamB_rating, TeamA_SP_ADJ, TeamB_SP_ADJ, TeamA_home_field_ADJ, TeamB_home_field_ADJ, PREGAME TEAM RATING, CHANCE OF WINNING
