@@ -1,4 +1,5 @@
 <template>
+  <Header />
   <h1>打者排行</h1>
   <p>1..</p>
   <p>2..</p>
@@ -11,3 +12,13 @@
   <p>1..</p>
   <p>2..</p>
 </template>
+
+<script>
+  import Header from '../components/Header.vue'
+  export default {
+    components: {
+      Header
+    },
+  // 组件的其他选项和逻辑
+  }
+</script>
