@@ -11,8 +11,13 @@ CREATE TABLE `players`(
 CREATE TABLE `teams`(
  team_id VARCHAR(256),
     team_name VARCHAR(256),
-    location VARCHAR(256)
+    location VARCHAR(256),
+    win VARCHAR(256),
+    lose VARCHAR(256),
+    win_rate VARCHAR(256)
 );
+
+
 
 CREATE TABLE `match`(
  match_id VARCHAR(256),
