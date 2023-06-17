@@ -1,3 +1,4 @@
 Daily Run SQL 順序：
 1. 跑rating的auto_download.py
-2. 
+2. 跑rating的rating.sql
+3. 跑match的match.sql
