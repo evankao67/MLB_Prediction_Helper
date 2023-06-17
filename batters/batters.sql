@@ -16,8 +16,8 @@ ENCLOSED BY '"'
 LINES TERMINATED BY '\n'
 IGNORE 1 ROWS;
 
-INSERT INTO batters(player_id, HR, `AVG`, OPS)
-SELECT playerId, HR, `AVG`, `OPS`
+INSERT INTO batters(player_id,`Name` , HR, `AVG`, OPS)
+SELECT playerId, `Name`, HR, `AVG`, `OPS`
 FROM batters_tmp;
 
 DROP TABLE batters_tmp;
