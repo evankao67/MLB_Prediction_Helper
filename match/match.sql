@@ -37,3 +37,6 @@ where `match`.match_id = match_odds.Date;
 
 
 select * from `match` where time = '2023-06-18';
+
+drop table match_odds;
+drop table mlb_elo;
