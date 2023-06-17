@@ -27,6 +27,7 @@ CREATE TABLE `match`(
 
 CREATE TABLE `pitchers`(
  player_id VARCHAR(256),
+    `Name` VARCHAR(256),
     position VARCHAR(256),
     Win VARCHAR(256),
     Lose VARCHAR(256),
@@ -35,8 +36,9 @@ CREATE TABLE `pitchers`(
 );
 
 CREATE TABLE `batters`(
- player_id VARCHAR(256),
-    position VARCHAR(256),
+    player_id VARCHAR(256),
+    `Name` VARCHAR(256),
+    `position` VARCHAR(256),
     HR VARCHAR(256),
     AVG VARCHAR(256),
     OPS VARCHAR(256)   
