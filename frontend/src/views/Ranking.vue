@@ -1,24 +1,29 @@
 <template>
-  <Header />
-  <h1>打者排行</h1>
-  <p>1..</p>
-  <p>2..</p>
-  <br />
-  <h1>投手排行</h1>
-  <p>1..</p>
-  <p>2..</p>
-  <br />
-  <h1>隊伍排行</h1>
-  <p>1..</p>
-  <p>2..</p>
+  <div>
+    <Header />
+    <h1>投手排行</h1>
+    <Table />
+    <br />
+    <h1>打者排行</h1>
+    <Table_Bat />
+    <br />
+    <h1>隊伍排行</h1>
+    <Table_Team />
+  </div>
 </template>
 
 <script>
   import Header from '../components/Header.vue'
+  import Table from '../components/Table.vue'
+  import Table_Bat from '../components/Table_bat.vue'
+  import Table_Team from'../components/Table_team.vue'
   export default {
     components: {
-      Header
+      Header,
+      Table,
+      Table_Bat,
+      Table_Team,
     },
-  // 组件的其他选项和逻辑
+    // 组件的其他选项和逻辑
   }
 </script>

@@ -1,18 +1,18 @@
 <template>
   <div>
     <Header />
+    <Menu_Team />
   </div>
-  <p>This is homepage</p>
-  <RouterLink to="/rank">排行榜</RouterLink>
-  <RouterLink to="/game">比賽</RouterLink>
-  <v-btn>dd</v-btn>
+  
 </template>
 
 <script>
   import Header from '../components/Header.vue'
+  import Menu_Team from '../components/Menu_team.vue'
   export default {
     components: {
-      Header
+      Header,
+      Menu_Team,
     },
   // 组件的其他选项和逻辑
   }
