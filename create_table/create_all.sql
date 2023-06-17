@@ -50,7 +50,7 @@ CREATE TABLE `rating`(
     team_home_rating VARCHAR(256),
     team_away_rating VARCHAR(256),
     team_home_homefield VARCHAR(256),
-    team_away_homefield VARCHAR(256)
+    team_away_homefield VARCHAR(256),
     team_home_winchance VARCHAR(256),
     team_away_winchance VARCHAR(256)
 );
