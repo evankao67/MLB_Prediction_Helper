@@ -7,6 +7,12 @@
     <h1>投手排行(WHIP)</h1>
     <Table_Whip />
     <br />
+    <h1>投手排行(勝投數)</h1>
+    <Table_Win />
+    <br />
+    <h1>投手排行(敗投數)</h1>
+    <Table_Lose />
+    <br />
     <h1>打者排行(打擊率)</h1>
     <Table_Bat />
     <br />
@@ -29,6 +35,8 @@
   import Table_Bat_Hr from'../components/Table_bat_hr.vue'
   import Table_Bat_Ops from'../components/Table_bat_ops.vue'
   import Table_Whip from'../components/Table_whip.vue'
+  import Table_Win from'../components/Table_win.vue'
+  import Table_Lose from'../components/Table_lose.vue'
   export default {
     components: {
       Header,
@@ -38,6 +46,8 @@
       Table_Bat_Hr,
       Table_Bat_Ops,
       Table_Whip,
+      Table_Win,
+      Table_Lose,
     },
     // 组件的其他选项和逻辑
   }
