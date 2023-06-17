@@ -5,7 +5,7 @@
           <th class="text-left">Team</th>
           <th class="text-left">Rate</th>
           <th class="text-left">Win</th>
-          <th class="text-left">Loose</th>
+          <th class="text-left">Lose</th>
         </tr>
       </thead>
       <tbody>
@@ -16,7 +16,7 @@
           </td>
           <td>{{ item.rate }}</td>
           <td>{{ item.win }}</td>
-          <td>{{ item.loose }}</td>
+          <td>{{ item.lose }}</td>
         </tr>
       </tbody>
     </v-table>
@@ -31,61 +31,61 @@
             team: 'Tampa Bay Rays',
             rate: 69.0,
             win:49,
-            loose:22,
+            lose:22,
           },
           {
             team: 'Baltimore Orioles',
             rate: 62.6,
             win:42,
-            loose:25,
+            lose:25,
           },
           {
             team: 'Texas Rangers',
             rate: 62.6,
             win:42,
-            loose:25,
+            lose:25,
           },
           {
             team: 'Atlanta Braves',
             rate: 61.7,
             win:42,
-            loose:26,
+            lose:26,
           },
           {
             team: 'Arizona Diamondbacks',
             rate: 60.2,
             win:41,
-            loose:27,
+            lose:27,
           },
           {
             team: 'Houston Astros',
             rate: 57.3,
             win:39,
-            loose:29,
+            lose:29,
           },
           {
             team: 'New York Yankees',
             rate: 56.5,
             win:39,
-            loose:30,
+            lose:30,
           },
           {
             team: 'Los Angeles Dodgers',
             rate: 55.8,
             win:38,
-            loose:30,
+            lose:30,
           },
           {
             team: 'Toronto Blue Jays',
             rate: 55.0,
             win:38,
-            loose:31,
+            lose:31,
           },
           {
             team: 'Miami Marlins',
             rate: 55.0,
             win:38,
-            loose:31,
+            lose:31,
           },
           // 添加其他球员数据...
         ],
