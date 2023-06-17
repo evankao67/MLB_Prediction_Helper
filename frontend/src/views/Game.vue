@@ -6,7 +6,7 @@
         <v-card class="bg-gamebgcolor" style= "height:50px;">
           <v-row align="center" no-gutters>
             <v-col>
-              <v-btn class="material-symbols-outlined bg-buttonbgcolor" style= "height:50px;" @click="increaseDay">
+              <v-btn class="material-symbols-outlined bg-buttonbgcolor" style= "height:50px;" @click="decreaseDay">
                 arrow_back_ios
               </v-btn>
             </v-col>
