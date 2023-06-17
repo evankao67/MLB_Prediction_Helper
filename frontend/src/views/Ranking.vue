@@ -1,6 +1,7 @@
 <template>
   <div>
     <Header />
+    <Background />
     <h1>投手排行(自責分)</h1>
     <Table />
     <br />
@@ -24,6 +25,7 @@
     <br />
     <h1>隊伍排行</h1>
     <Table_Team />
+    <Background />
   </div>
 </template>
 
@@ -37,6 +39,7 @@
   import Table_Whip from'../components/Table_whip.vue'
   import Table_Win from'../components/Table_win.vue'
   import Table_Lose from'../components/Table_lose.vue'
+  import Background from'../components/background.vue'
   export default {
     components: {
       Header,
@@ -48,6 +51,7 @@
       Table_Whip,
       Table_Win,
       Table_Lose,
+      Background,
     },
     // 组件的其他选项和逻辑
   }
