@@ -1,12 +1,29 @@
 <template>
     <Header />
     <h1>當日賽程</h1>
-    <v-menu max-width="290">
-      <template v-slot:activator="{ on }">
-        <v-text-field :value="formattedDate" label="Due date" prepend-icon="mdi-calendar-range" v-on="on"></v-text-field>
-      </template>
-      <v-date-picker v-model="due"></v-date-picker>
-    </v-menu>
+    <div>
+      <v-container>
+        <v-card class="bg-gamebgcolor" style= "height:50px;">
+          <v-row align="center" no-gutters>
+            <v-col>
+              <v-btn class="material-symbols-outlined bg-buttonbgcolor" style= "height:50px;" @click="increaseDay">
+                arrow_back_ios
+              </v-btn>
+            </v-col>
+            <v-col cols="10">
+              <v-sheet class="bg-gamebgcolor text-center">
+                {{ formattedDate }}
+              </v-sheet>
+            </v-col>
+            <v-col>
+              <v-btn class="material-symbols-outlined bg-buttonbgcolor ml-9" style= "height:50px;" @click="increaseDay">
+                arrow_forward_ios
+              </v-btn>
+            </v-col>
+          </v-row>
+        </v-card>
+      </v-container>
+    </div>
     <div>
       <v-container>
         <v-row>
@@ -65,12 +82,50 @@
           { ip: 'FINAL' ,team1: 'Braves', score1: '6', team2: 'Tigers', score2: '5'},
           {ip: 'FINAL' ,team1: 'Pirates', score1: '6', team2: 'Cubs', score2: '10'},
         ],
-        due: null
-      }
+        currentDate: new Date(),
+        formattedDate: ''
+      };
     },
     components: {
       Header
     },
-  // 组件的其他选项和逻辑
+    mounted() {
+    this.updateFormattedDate();
+  },
+  methods: {
+    decreaseDay() {
+      this.currentDate.setDate(this.currentDate.getDate() - 1);
+      this.updateFormattedDate();
+    },
+    increaseDay() {
+      this.currentDate.setDate(this.currentDate.getDate() + 1);
+      this.updateFormattedDate();
+    },
+    updateFormattedDate() {
+      const options = { weekday: 'long', day: 'numeric', month: 'long' };
+      this.formattedDate = this.formatDate(this.currentDate, options);
+    },
+    formatDate(date, options) {
+      const daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+      const monthsOfYear = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+      
+      const dayOfWeek = daysOfWeek[date.getDay()];
+      const dayOfMonth = date.getDate();
+      const month = monthsOfYear[date.getMonth()];
+
+      return `${dayOfWeek}, ${dayOfMonth}, ${month}`;
+    }
   }
+  }
+  // 组件的其他选项和逻辑
 </script>
+
+<style>
+  .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+</style>
