@@ -1,0 +1,3 @@
+Daily Run SQL 順序：
+1. 跑rating的auto_download.py
+2. 
