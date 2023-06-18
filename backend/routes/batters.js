@@ -17,7 +17,7 @@ router.get('/', (req, res) => {
 
 // 取得打擊率排行榜
 router.get('/avg', (req, res) => {
-  const query = 'SELECT `name`, team, HR, `AVG`, OPS FROM batters, players WHERE batters.`name` = players.`player_name` AND team <> "null" ORDER BY `AVG` DESC LIMIT 10';
+  const query = 'SELECT * FROM batters ORDER BY AVG DESC LIMIT 10';
   connection.query(query, (error, results) => {
     if (error) {
       console.error('Error retrieving batters:', error);
@@ -31,7 +31,7 @@ router.get('/avg', (req, res) => {
 
 // 取得全壘打排行榜
 router.get('/hr', (req, res) => {
-  const query = 'SELECT `name`, team, HR, `AVG`, OPS FROM batters, players WHERE batters.`name` = players.`player_name` AND team <> "null" ORDER BY HR DESC LIMIT 10';
+  const query = 'SELECT * FROM batters ORDER BY HR DESC LIMIT 10';
   connection.query(query, (error, results) => {
     if (error) {
       console.error('Error retrieving batters:', error);
@@ -44,7 +44,7 @@ router.get('/hr', (req, res) => {
 
 // 取得攻擊指數排行榜
 router.get('/ops', (req, res) => {
-  const query = 'SELECT `name`, team, HR, `AVG`, OPS FROM batters, players WHERE batters.`name` = players.`player_name` AND team <> "null" ORDER BY OPS DESC LIMIT 10';
+  const query = 'SELECT * FROM batters ORDER BY OPS DESC LIMIT 10';
   connection.query(query, (error, results) => {
     if (error) {
       console.error('Error retrieving batters:', error);
