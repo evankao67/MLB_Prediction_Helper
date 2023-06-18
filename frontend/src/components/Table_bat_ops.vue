@@ -4,7 +4,7 @@
         <tr>
           <th class="text-left">Name</th>
           <th class="text-left">Team</th>
-          <th class="text-left">AVG</th>
+          <th class="text-left">OPS</th>
 
         </tr>
       </thead>
@@ -15,7 +15,7 @@
             {{ item.name }}
           </td>
           <td>{{ item.team }}</td>
-          <td>{{ item.avg }}</td>
+          <td>{{ item.ops }}</td>
  
         </tr>
       </tbody>
@@ -30,58 +30,58 @@
           {
             name: 'CorbinCarroll',
             team: 'AZ',
-            avg: .311,
+            ops: .311,
           },
           {
             name: 'ShoheiOhtani',
             team: 'LAA',
-            avg: .299,
+            ops: .299,
           },
           {
             name: 'RonaldAcuna',
             team: 'ATL',
-            avg: .333,
+            ops: .333,
         
           },
           {
             name: 'FreddieFreeman',
             team: 'LAD',
-            avg: .331,
+            ops: .331,
            
           },
           {
             name: 'YordanAlvarez',
             team: 'HOU',
-            avg: .277,
+            ops: .277,
           
           },
           {
             name: 'YandyDiaz',
             team: 'TB',
-            avg: .311,
+            ops: .311,
           },
           {
             name: 'JorgeSoler',
             team: 'MIA',
-            avg: .258,
+            ops: .258,
  
           },
           {
             name: 'JackSuwinski',
             team: 'PIT',
-            avg: .249,
+            ops: .249,
    
           },
           {
             name: 'SeanMurphy',
             team: 'ATL',
-            avg: .276,
+            ops: .276,
   
           },
           {
             name: 'FernandoTatis',
             team: 'SD',
-            avg: .283,
+            ops: .283,
 
           },
           // 添加其他球员数据...

@@ -4,8 +4,7 @@
         <tr>
           <th class="text-left">Name</th>
           <th class="text-left">Team</th>
-          <th class="text-left">AVG</th>
-
+          <th class="text-left">WHIP</th>
         </tr>
       </thead>
       <tbody>
@@ -15,8 +14,7 @@
             {{ item.name }}
           </td>
           <td>{{ item.team }}</td>
-          <td>{{ item.avg }}</td>
- 
+          <td>{{ item.whip }}</td>
         </tr>
       </tbody>
     </v-table>
@@ -28,61 +26,54 @@
       return {
         mlbplayer: [
           {
-            name: 'CorbinCarroll',
-            team: 'AZ',
-            avg: .311,
+            name: 'EduardoRodriguez',
+            team: 'DET',
+            whip: 2.13,
           },
           {
-            name: 'ShoheiOhtani',
-            team: 'LAA',
-            avg: .299,
-          },
-          {
-            name: 'RonaldAcuna',
-            team: 'ATL',
-            avg: .333,
-        
-          },
-          {
-            name: 'FreddieFreeman',
-            team: 'LAD',
-            avg: .331,
-           
-          },
-          {
-            name: 'YordanAlvarez',
-            team: 'HOU',
-            avg: .277,
-          
-          },
-          {
-            name: 'YandyDiaz',
+            name: 'ShaneMcClanahan',
             team: 'TB',
-            avg: .311,
+            whip: 2.18,
           },
           {
-            name: 'JorgeSoler',
-            team: 'MIA',
-            avg: .258,
- 
+            name: 'SonnyGray',
+            team: 'MIN',
+            whip: 2.25,
           },
           {
-            name: 'JackSuwinski',
-            team: 'PIT',
-            avg: .249,
-   
+            name: 'FramberValdez',
+            team: 'HOU',
+            whip: 2.27,
           },
           {
-            name: 'SeanMurphy',
+            name: 'JonGray',
+            team: 'TEX',
+            whip: 2.32,
+          },
+          {
+            name: 'MarcusStroman',
+            team: 'CHC',
+            whip: 2.42,
+          },
+          {
+            name: 'NathanEovaldi',
+            team: 'TEX',
+            whip: 2.49,
+          },
+          {
+            name: 'JustinSteele',
+            team: 'CHC',
+            whip: 2.65,
+          },
+          {
+            name: 'BryceElder',
             team: 'ATL',
-            avg: .276,
-  
+            whip: 2.69,
           },
           {
-            name: 'FernandoTatis',
-            team: 'SD',
-            avg: .283,
-
+            name: 'LuisCastillo',
+            team: 'SEA',
+            whip: 2.73,
           },
           // 添加其他球员数据...
         ],

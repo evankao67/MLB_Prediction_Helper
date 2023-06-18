@@ -4,7 +4,7 @@
         <tr>
           <th class="text-left">Name</th>
           <th class="text-left">Team</th>
-          <th class="text-left">AVG</th>
+          <th class="text-left">HR</th>
 
         </tr>
       </thead>
@@ -15,7 +15,7 @@
             {{ item.name }}
           </td>
           <td>{{ item.team }}</td>
-          <td>{{ item.avg }}</td>
+          <td>{{ item.hr }}</td>
  
         </tr>
       </tbody>
@@ -30,58 +30,68 @@
           {
             name: 'CorbinCarroll',
             team: 'AZ',
-            avg: .311,
+            
+            hr: 12,
           },
           {
             name: 'ShoheiOhtani',
             team: 'LAA',
-            avg: .299,
+            
+            hr: 13,
           },
           {
             name: 'RonaldAcuna',
             team: 'ATL',
-            avg: .333,
+            
+            hr: 14,
         
           },
           {
             name: 'FreddieFreeman',
             team: 'LAD',
-            avg: .331,
+            
+            hr: 15,
            
           },
           {
             name: 'YordanAlvarez',
             team: 'HOU',
-            avg: .277,
+            
+            hr: 16,
           
           },
           {
             name: 'YandyDiaz',
             team: 'TB',
-            avg: .311,
+            
+            hr: 17,
           },
           {
             name: 'JorgeSoler',
             team: 'MIA',
-            avg: .258,
+            
+            hr: 14,
  
           },
           {
             name: 'JackSuwinski',
             team: 'PIT',
-            avg: .249,
+            
+            hr: 13,
    
           },
           {
             name: 'SeanMurphy',
             team: 'ATL',
-            avg: .276,
+            
+            hr: 35,
   
           },
           {
             name: 'FernandoTatis',
             team: 'SD',
-            avg: .283,
+            
+            hr: 38,
 
           },
           // 添加其他球员数据...
