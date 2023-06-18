@@ -1,229 +1,58 @@
 <template>
-    <v-table>
-      <thead>
-        <tr>
-          <th class="text-left">Team</th>
-          <th class="text-left">Rate</th>
-          <th class="text-left">Win</th>
-          <th class="text-left">Lose</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="item in mlbplayer" :key="item.team">
-          <td>
-            <img :src="getImageUrl(item.team)" alt="Player Image" class="player-image" />
-            {{ item.team }}
-          </td>
-          <td>{{ item.rate }}</td>
-          <td>{{ item.win }}</td>
-          <td>{{ item.lose }}</td>
-        </tr>
-      </tbody>
-    </v-table>
-  </template>
+  <v-table>
+    <thead>
+      <tr>
+        <th class="text-left">Team</th>
+        <th class="text-left">Rate</th>
+        <th class="text-left">Win</th>
+        <th class="text-left">Lose</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr v-for="team in teams" :key="team.team">
+        <td>
+          <img :src="getImageUrl(team.team_name)" alt="Team Image" class="team-image" />
+          {{ team.team_name }}
+        </td>
+        <td>{{ team.win_rate }}</td>
+        <td>{{ team.win }}</td>
+        <td>{{ team.lose }}</td>
+      </tr>
+    </tbody>
+  </v-table>
+</template>
   
-  <script>
-  export default {
-    data() {
-      return {
-        mlbplayer: [
-          {
-            team: 'Tampa Bay Rays',
-            rate: 69.0,
-            win:49,
-            lose:22,
-          },
-          {
-            team: 'Baltimore Orioles',
-            rate: 62.6,
-            win:42,
-            lose:25,
-          },
-          {
-            team: 'Texas Rangers',
-            rate: 62.6,
-            win:42,
-            lose:25,
-          },
-          {
-            team: 'Atlanta Braves',
-            rate: 61.7,
-            win:42,
-            lose:26,
-          },
-          {
-            team: 'Arizona Diamondbacks',
-            rate: 60.2,
-            win:41,
-            lose:27,
-          },
-          {
-            team: 'Houston Astros',
-            rate: 57.3,
-            win:39,
-            lose:29,
-          },
-          {
-            team: 'New York Yankees',
-            rate: 56.5,
-            win:39,
-            lose:30,
-          },
-          {
-            team: 'Los Angeles Dodgers',
-            rate: 55.8,
-            win:38,
-            lose:30,
-          },
-          {
-            team: 'Toronto Blue Jays',
-            rate: 55.0,
-            win:38,
-            lose:31,
-          },
-          {
-            team: 'Miami Marlins',
-            rate: 55.0,
-            win:38,
-            lose:31,
-          },
-          {
-            team: 'Los Angeles Angels',
-            rate: 54.3,
-            win:38,
-            lose:32,
-          },
-          {
-            team: 'Seattle Mariners',
-            rate: 49.3,
-            win:33,
-            lose:34,
-          },
-          {
-            team: 'Oakland Athletics',
-            rate: 27.1,
-            win:19,
-            lose:51,
-          },
-          {
-            team: 'Detroit Tigers',
-            rate: 40.9,
-            win:27,
-            lose:39,
-          },
-          {
-            team: 'Minnesota Twins',
-            rate: 51.5,
-            win:35,
-            lose:33,
-          },
-          {
-            team: 'Cleveland Guardians',
-            rate: 46.3,
-            win:31,
-            lose:36,
-          },
-          {
-            team: 'Chicago White Sox',
-            rate: 43.5,
-            win:30,
-            lose:39,
-          },
-          {
-            team: 'Kansas City Royals',
-            rate: 26.5,
-            win:18,
-            lose:50,
-          },
-          {
-            team: 'Boston Red Sox',
-            rate: 49.3,
-            win:34,
-            lose:35,
-          },
-          {
-            team: 'San Francisco Giants',
-            rate: 52.9,
-            win:36,
-            lose:32,
-          },
-          {
-            team: 'San Diego Padres',
-            rate: 49.3,
-            win:33,
-            lose:34,
-          },
-          {
-            team: 'Colorado Rockies',
-            rate: 41.4,
-            win:29,
-            lose:41,
-          },
-          {
-            team: 'Pittsburgh Pirates',
-            rate: 51.5,
-            win:34,
-            lose:32,
-          },
-          {
-            team: 'Milwaukee Brewers',
-            rate: 50,
-            win:34,
-            lose:34,
-          },
-          {
-            team: 'Cincinnati Reds',
-            rate: 49.3,
-            win:34,
-            lose:35,
-          },
-          {
-            team: 'Chicago Cubs',
-            rate: 44.8,
-            win:30,
-            lose:37,
-          },
-          {
-            team: 'St. Louis Cardinals',
-            rate: 39.1,
-            win:27,
-            lose:42,
-          },
-          {
-            team: 'Philadelphia Phillies',
-            rate: 50,
-            win:34,
-            lose:34,
-          },
-          {
-            team: 'New York Mets',
-            rate: 47.1,
-            win:32,
-            lose:36,
-          },
-          {
-            team: 'Washington Nationals',
-            rate: 39.4,
-            win:26,
-            lose:40,
-          },
-          // 添加其他球员数据...
-        ],
-      };
-    },
-    methods: {
-      getImageUrl(name) {
-        // 根据球员名称动态生成图片路径
-        return `/src/assets/images/${name}.jpg`;
-      },
-    },
-  };
-  </script>
+
+<script setup>
+import axios from 'axios'
+import { onMounted, ref } from 'vue'
+
+const teams = ref({});
+
+onMounted(() => {
+  axios
+    .get('http://localhost:3001/api/teams')
+    .then(response => {
+      teams.value = response.data;
+      console.log(response.data);
+    })
+    .catch(error => {
+      console.error(error);
+    });
+});
+
+function getImageUrl(name) {
+  // 根据球员名称动态生成图片路径
+  return `/src/assets/images/${name}.jpg`;
+}
+</script>
   
-  <style>
-  .player-image {
-    width: 30px; /* 根据需要设置图片的宽度 */
-    height: auto; /* 根据需要设置图片的高度 */
-    margin-right: 5px; /* 根据需要设置图片与名称之间的间距 */
-  }
-  </style>
+<style>
+.team-image {
+  width: 30px;
+  /* 根据需要设置图片的宽度 */
+  height: auto;
+  /* 根据需要设置图片的高度 */
+  margin-right: 5px;
+  /* 根据需要设置图片与名称之间的间距 */
+}</style>
