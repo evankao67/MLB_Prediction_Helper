@@ -4,7 +4,7 @@ const connection = require('../database/connection');
 
 // 取得所有打者資料
 router.get('/', (req, res) => {
-  const query = 'SELECT * FROM batters';
+  const query = 'SELECT * FROM batters ORDER BY NAME';
   connection.query(query, (error, results) => {
     if (error) {
       console.error('Error retrieving batters:', error);
@@ -15,53 +15,42 @@ router.get('/', (req, res) => {
   });
 });
 
-// 新增打者
-router.post('/', (req, res) => {
-  const { player_id, position, HR, AVG, OPS } = req.body;
-  const query = 'INSERT INTO batters (player_id, position, HR, AVG, OPS) VALUES (?, ?, ?, ?, ?)';
-  connection.query(query, [player_id, position, HR, AVG, OPS], (error, result) => {
+// 取得打擊率排行榜
+router.get('/avg', (req, res) => {
+  const query = 'SELECT * FROM batters ORDER BY AVG DESC LIMIT 10';
+  connection.query(query, (error, results) => {
     if (error) {
-      console.error('Error adding batter:', error);
-      res.status(500).json({ error: 'Failed to add batter' });
+      console.error('Error retrieving batters:', error);
+      res.status(500).json({ error: 'Failed to retrieve batters' });
     } else {
-      res.json({ message: 'Batter added successfully', player_id: result.insertId });
+      res.json(results);
     }
   });
 });
 
-// 更新打者資料
-router.put('/:player_id', (req, res) => {
-  const { player_id } = req.params;
-  const { position, HR, AVG, OPS } = req.body;
-  const query = 'UPDATE batters SET position = ?, HR = ?, AVG = ?, OPS = ? WHERE player_id = ?';
-  connection.query(query, [position, HR, AVG, OPS, player_id], (error, result) => {
+
+// 取得全壘打排行榜
+router.get('/hr', (req, res) => {
+  const query = 'SELECT * FROM batters ORDER BY HR DESC LIMIT 10';
+  connection.query(query, (error, results) => {
     if (error) {
-      console.error('Error updating batter:', error);
-      res.status(500).json({ error: 'Failed to update batter' });
+      console.error('Error retrieving batters:', error);
+      res.status(500).json({ error: 'Failed to retrieve batters' });
     } else {
-      if (result.affectedRows === 0) {
-        res.status(404).json({ error: 'Batter not found' });
-      } else {
-        res.json({ message: 'Batter updated successfully' });
-      }
+      res.json(results);
     }
   });
 });
 
-// 刪除打者
-router.delete('/:player_id', (req, res) => {
-  const { player_id } = req.params;
-  const query = 'DELETE FROM batters WHERE player_id = ?';
-  connection.query(query, [player_id], (error, result) => {
+// 取得攻擊指數排行榜
+router.get('/ops', (req, res) => {
+  const query = 'SELECT * FROM batters ORDER BY OPS DESC LIMIT 10';
+  connection.query(query, (error, results) => {
     if (error) {
-      console.error('Error deleting batter:', error);
-      res.status(500).json({ error: 'Failed to delete batter' });
+      console.error('Error retrieving batters:', error);
+      res.status(500).json({ error: 'Failed to retrieve batters' });
     } else {
-      if (result.affectedRows === 0) {
-        res.status(404).json({ error: 'Batter not found' });
-      } else {
-        res.json({ message: 'Batter deleted successfully' });
-      }
+      res.json(results);
     }
   });
 });

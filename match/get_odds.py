@@ -2,16 +2,17 @@ import json
 import requests
 import datetime
 import mysql.connector
-import pprint
+import csv
 
 abbreviations = {
     '多倫多藍鳥': 'TOR',
     '坦帕灣光芒': 'TBD',
+    '紐約洋基':'NYY',
+    '巴爾地摩金鶯':'BAL',
+    '波士頓紅襪': 'BOS',
     '奧克蘭運動家': 'OAK',
     '西雅圖水手': 'SEA',
     '德州遊騎兵': 'TEX',
-    '匹茲堡海盜': 'PIT',
-    '波士頓紅襪': 'BOS',
     '洛杉磯天使': 'ANA',
     '洛杉磯道奇': 'LAD',
     '亞特蘭大勇士': 'ATL',
@@ -24,11 +25,10 @@ abbreviations = {
     '邁阿密馬林魚': 'FLA',
     '科羅拉多落磯山': 'COL',
     '休士頓太空人':'HOU',
-    '紐約洋基':'NYY',
-    '巴爾地摩金鶯':'BAL',
     '底特律老虎':'DET',
     '辛辛那堤紅人':'CIN',
-    '德州遊騎兵':'TEX',
+    '匹茲堡海盜': 'PIT',
+    '亞歷桑那響尾蛇':'ARI',
     '密爾瓦基釀酒人':'MIL',
     '費城費城人':'PHI',
     '明尼蘇達雙城':'MIN',
@@ -37,8 +37,16 @@ abbreviations = {
     '堪薩斯皇家':'KCR'
 }
 
+currentDateAndTime = str(datetime.datetime.now())
+today = datetime.date.today()
+tomorrow = today + datetime.timedelta(days=1)
 
-game_date = '2023-05-24'
+if(currentDateAndTime[11] == '1' and currentDateAndTime[12] != '0'):
+    game_date = str(tomorrow)
+elif(currentDateAndTime[11] == '2'):
+    game_date = str(tomorrow)
+else:
+    game_date = str(today) 
 
 sport = 'MLB'
 access_token = 'FREE_20_TIMES_PRE_DAY_FOR_TEST_ONLY'
@@ -50,22 +58,23 @@ response = requests.get(url, params=params)
 result = json.loads(response.text)
 result = response.json()
 
-pprint.pprint(result)
+# 只要時間主客隊賠率
 
 match = {}
-index = 1
+index = 0
+
 for key, value in result['data'].items():
+    index += 1
+    match_id = value['info']['lottery_id']
     away = value['info']['away']
     home = value['info']['home']
     time = value['info']['time']
-    away_normal = value['odds'][0]['away_normal']
-    home_normal = value['odds'][0]['home_normal']
-    match[time] = {'away': away, 'home': home, 'away_odds': away_normal, 'home_odds': home_normal}
-    index += 1
+    away_normal = value['odds'][-1]['away_normal']
+    home_normal = value['odds'][-1]['home_normal']
+    match[str(time)+str(index)] = {'away': away, 'home': home, 'away_odds': away_normal, 'home_odds': home_normal}
 
-pprint.pprint(match)
-print(index)
-"""
+# 主客隊中文變英文縮寫
+
 updated_match = {}
 for date, info in match.items():
     updated_info = {}
@@ -79,6 +88,8 @@ for date, info in match.items():
 
 match = updated_match
 
+# 改key
+
 new_match = {}
 
 for key, value in match.items():
@@ -89,26 +100,30 @@ for key, value in match.items():
     new_match[new_key] = value
 
 match = new_match
+#print(match)
 
-# 建立与MySQL数据库的连接
-cnx = mysql.connector.connect(
-    host='localhost',
-    user='root',
-    password='kelly311',
-    database='MLB'
-)
 
-# 获取游标
-cursor = cnx.cursor()
+filename = 'match.csv'
+fieldnames = ['Date', 'Home', 'Away', 'Home Odds', 'Away Odds']
 
-# 插入数据
-insert_query = "INSERT INTO `lottery` (match_id, team_home_odds, team_away_odds) VALUES (%s, %s, %s)"
-matches = [(str(match_id), str(match['home_odds']), str(match['away_odds'])) for match_id, match in match.items()]
-cursor.executemany(insert_query, matches)
+with open(filename, 'w', newline='') as csvfile:
+    writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+    writer.writeheader()
 
-# 提交事务并关闭连接
-cnx.commit()
-cursor.close()
-cnx.close()
+    for key, value in match.items():
+        date = key[:10]
+        home = value['home']
+        away = value['away']
+        home_odds = value['home_odds']
+        away_odds = value['away_odds']
+        date = f"{date}{home}{away}"
+        
+        writer.writerow({
+            'Date': date,
+            'Home': home,
+            'Away': away,
+            'Home Odds': home_odds,
+            'Away Odds': away_odds
+        })
 
-"""
+print(f"CSV檔案已儲存為 {filename}")
