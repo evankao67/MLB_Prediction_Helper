@@ -4,8 +4,7 @@
         <tr>
           <th class="text-left">Name</th>
           <th class="text-left">Team</th>
-          <th class="text-left">AVG</th>
-
+          <th class="text-left">Lose</th>
         </tr>
       </thead>
       <tbody>
@@ -15,8 +14,7 @@
             {{ item.name }}
           </td>
           <td>{{ item.team }}</td>
-          <td>{{ item.avg }}</td>
- 
+          <td>{{ item.lose }}</td>
         </tr>
       </tbody>
     </v-table>
@@ -28,61 +26,54 @@
       return {
         mlbplayer: [
           {
-            name: 'CorbinCarroll',
-            team: 'AZ',
-            avg: .311,
+            name: 'EduardoRodriguez',
+            team: 'DET',
+            lose: 5,
           },
           {
-            name: 'ShoheiOhtani',
-            team: 'LAA',
-            avg: .299,
-          },
-          {
-            name: 'RonaldAcuna',
-            team: 'ATL',
-            avg: .333,
-        
-          },
-          {
-            name: 'FreddieFreeman',
-            team: 'LAD',
-            avg: .331,
-           
-          },
-          {
-            name: 'YordanAlvarez',
-            team: 'HOU',
-            avg: .277,
-          
-          },
-          {
-            name: 'YandyDiaz',
+            name: 'ShaneMcClanahan',
             team: 'TB',
-            avg: .311,
+            lose: 5,
           },
           {
-            name: 'JorgeSoler',
-            team: 'MIA',
-            avg: .258,
- 
+            name: 'SonnyGray',
+            team: 'MIN',
+            lose: 5,
           },
           {
-            name: 'JackSuwinski',
-            team: 'PIT',
-            avg: .249,
-   
+            name: 'FramberValdez',
+            team: 'HOU',
+            lose: 5,
           },
           {
-            name: 'SeanMurphy',
+            name: 'JonGray',
+            team: 'TEX',
+            lose: 5,
+          },
+          {
+            name: 'MarcusStroman',
+            team: 'CHC',
+            lose: 5,
+          },
+          {
+            name: 'NathanEovaldi',
+            team: 'TEX',
+            lose: 5,
+          },
+          {
+            name: 'JustinSteele',
+            team: 'CHC',
+            lose: 5,
+          },
+          {
+            name: 'BryceElder',
             team: 'ATL',
-            avg: .276,
-  
+            lose: 5,
           },
           {
-            name: 'FernandoTatis',
-            team: 'SD',
-            avg: .283,
-
+            name: 'LuisCastillo',
+            team: 'SEA',
+            lose: 5,
           },
           // 添加其他球员数据...
         ],
@@ -104,4 +95,3 @@
     margin-right: 5px; /* 根据需要设置图片与名称之间的间距 */
   }
   </style>
-  

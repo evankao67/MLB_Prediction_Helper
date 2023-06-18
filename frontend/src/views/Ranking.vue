@@ -1,14 +1,31 @@
 <template>
   <div>
     <Header />
-    <h1>投手排行</h1>
+    <Background />
+    <h1>投手排行(自責分)</h1>
     <Table />
     <br />
-    <h1>打者排行</h1>
+    <h1>投手排行(WHIP)</h1>
+    <Table_Whip />
+    <br />
+    <h1>投手排行(勝投數)</h1>
+    <Table_Win />
+    <br />
+    <h1>投手排行(敗投數)</h1>
+    <Table_Lose />
+    <br />
+    <h1>打者排行(打擊率)</h1>
     <Table_Bat />
+    <br />
+    <h1>打者排行(全壘打)</h1>
+    <Table_Bat_Hr />
+    <br />
+    <h1>打者排行(OPS)</h1>
+    <Table_Bat_Ops />
     <br />
     <h1>隊伍排行</h1>
     <Table_Team />
+    <Background />
   </div>
 </template>
 
@@ -17,12 +34,24 @@
   import Table from '../components/Table.vue'
   import Table_Bat from '../components/Table_bat.vue'
   import Table_Team from'../components/Table_team.vue'
+  import Table_Bat_Hr from'../components/Table_bat_hr.vue'
+  import Table_Bat_Ops from'../components/Table_bat_ops.vue'
+  import Table_Whip from'../components/Table_whip.vue'
+  import Table_Win from'../components/Table_win.vue'
+  import Table_Lose from'../components/Table_lose.vue'
+  import Background from'../components/background.vue'
   export default {
     components: {
       Header,
       Table,
       Table_Bat,
       Table_Team,
+      Table_Bat_Hr,
+      Table_Bat_Ops,
+      Table_Whip,
+      Table_Win,
+      Table_Lose,
+      Background,
     },
     // 组件的其他选项和逻辑
   }
