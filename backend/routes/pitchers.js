@@ -2,7 +2,6 @@ const express = require('express');
 const router = express.Router();
 const connection = require('../database/connection');
 
-// 取得所有投手資料
 router.get('/byera', (req, res) => {
   const query = 'SELECT * FROM pitchers ORDER BY era ASC LIMIT 10';
   connection.query(query, (error, results) => {
