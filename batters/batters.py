@@ -16,18 +16,17 @@ def get_info(url):
     return html.json()
 
 doc_json = get_info('https://bdfed.stitch.mlbinfra.com/bdfed/stats/player?stitch_env=prod&season=2023&sportId=1&stats=season&group=hitting&gameType=R&limit=10000&offset=0&sortStat=onBasePlusSlugging&order=desc&playerPool=ALL')
-#print(type(doc_json))
-#print(json.dumps(doc_json["stats"]))
 
-#print(doc_json["stats"][1].keys())
+
 csv_file_path = '/Users/kenny/Desktop/api/batters.csv'
-fieldnames = ['playerId', 'Name', 'HR', 'AVG', 'OPS']
+fieldnames = ['playerId', 'Name', 'HR', 'AVG', 'OPS', 'team']
 
 id_v = ''
 name_v = ''
 hr_v = ''
 avg_v = ''
 ops_v = ''
+team_v = ''
 
 with open(csv_file_path, mode = "w", newline="") as file:
   writer = csv.DictWriter(file, fieldnames=fieldnames)
@@ -44,11 +43,14 @@ with open(csv_file_path, mode = "w", newline="") as file:
             avg_v = value
         if key == 'ops':
             ops_v = value
+        if key == 'teamName':
+            team_v = value
     writer.writerow({
         'playerId' : id_v,
         'Name' : name_v,
         'HR' : hr_v,
         'AVG' : avg_v,
-        'OPS' : ops_v
+        'OPS' : ops_v,
+        'team' : team_v
     })
     #print(player.keys(), player.values())
