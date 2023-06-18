@@ -36,6 +36,28 @@
             </v-row>
             <v-row>
               <v-col cols="6">
+                <v-sheet class="bg-gamebgcolor">
+                  Team
+                </v-sheet>
+              </v-col>
+              <v-col>
+                <v-sheet class="bg-gamebgcolor text-center">
+                  Score
+                </v-sheet>
+              </v-col>
+              <v-col>
+                <v-sheet class="bg-gamebgcolor text-center">
+                  Rate
+                </v-sheet>
+              </v-col>
+              <v-col>
+                <v-sheet class="bg-gamebgcolor text-center">
+                  Loss
+                </v-sheet>
+              </v-col>
+            </v-row>
+            <v-row>
+              <v-col cols="6">
                 <v-sheet class="bg-gamebgcolor" style="white-space: nowrap;">
                   <img :src="getImageUrl(project.team1img)" alt="" class="player-image" />
                     {{ project.team1img }}
