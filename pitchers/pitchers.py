@@ -17,16 +17,16 @@ def get_info(url):
 
 doc_json = get_info('https://bdfed.stitch.mlbinfra.com/bdfed/stats/player?stitch_env=prod&season=2023&sportId=1&stats=season&group=pitching&gameType=R&limit=10000&offset=0&sortStat=earnedRunAverage&order=asc&playerPool=ALL')
 
-#remember to change the path
 csv_file_path = '/Users/kenny/Desktop/api/pitchers.csv'
-fieldnames = ['playerId', 'Name', 'win', 'lose', 'era', 'whip']
+fieldnames = ['playerId', 'Name', 'win', 'lose', 'era', 'whip', 'team']
 
 id_v = ''
 name_v = ''
 wins_v = ''
 losses_v = ''
 era_v = ''
-whip_v = value
+whip_v = ''
+team_v = ''
 
 with open(csv_file_path, mode = "w", newline="") as file:
   writer = csv.DictWriter(file, fieldnames=fieldnames)
@@ -45,11 +45,14 @@ with open(csv_file_path, mode = "w", newline="") as file:
             era_v = value
         if key == 'whip':
             whip_v = value
+        if key == 'teamName':
+            team_v = value
     writer.writerow({
         'playerId' : id_v,
         'Name' : name_v,
         'win' : wins_v,
         'lose' : losses_v,
         'era' : era_v,
-        'whip' : whip_v
+        'whip' : whip_v,
+        'team' : team_v
     })
