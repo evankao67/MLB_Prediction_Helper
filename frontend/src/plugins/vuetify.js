@@ -19,7 +19,8 @@ export default createVuetify({
         colors: {
           primary: '#1867C0',
           secondary: '#5CBBF6',
-          gamebgcolor: '#424242',
+          gamebgcolor: '#616161',
+          buttonbgcolor: '##212121'
         },
       },
     },
