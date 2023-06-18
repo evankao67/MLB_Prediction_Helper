@@ -17,7 +17,7 @@ router.get('/all', (req, res) => {
 
 // 取得當日比賽資料
 router.get('/', (req, res) => {
-  const query = 'SELECT * FROM `match` WHERE DATE(`time`) = CURDATE()';
+  const query = 'SELECT `time`, team_home, team_home_winchance, team_home_odds, team_away, team_away_winchance, team_away_odds FROM rating, `match` WHERE DATE(`time`) = CURDATE() AND rating.match_id = `match`.match_id';
   connection.query(query, (error, results) => {
     if (error) {
       console.error('Error retrieving matches:', error);
@@ -31,3 +31,5 @@ router.get('/', (req, res) => {
 
 
 module.exports = router;
+
+
