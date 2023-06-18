@@ -14,7 +14,7 @@
           {{ player.Name }}
         </td>
         <td>{{ player.Win }}</td>
-        <td>{{ player.Whip }}</td>
+        <td>{{ player.WHIP }}</td>
       </tr>
     </tbody>
   </v-table>

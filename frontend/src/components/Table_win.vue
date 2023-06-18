@@ -10,8 +10,8 @@
       <tbody>
         <tr v-for="item in mlbplayer" :key="item.name">
           <td>
-            <img :src="getImageUrl(item.name)" alt="Player Image" class="player-image" />
-            {{ item.name }}
+            <!-- <img :src="getImageUrl(item.name)" alt="Player Image" class="player-image" /> -->
+            {{ item.Name }}
           </td>
           <td>{{ item.team }}</td>
           <td>{{ item.Win }}</td>
