@@ -36,7 +36,7 @@ router.get('/getByDate', (req, res) => {
     res.status(400).json({ error: 'Missing date parameter' });
     return;
   }
-  const query = `SELECT \`time\`, team_home, team_home_winchance, team_home_odds, team_away, team_away_winchance, team_away_odds
+  const query = `SELECT \`time\`, team_home, team_home_winchance, team_home_odds, team_away, team_away_winchance, team_away_odds, home_score, away_score
                  FROM rating, \`match\`
                  WHERE DATE(\`time\`) = ? AND rating.match_id = \`match\`.match_id`;
   connection.query(query, [date], (error, results) => {
