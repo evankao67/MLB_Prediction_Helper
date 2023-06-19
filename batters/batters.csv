@@ -1,593 +1,598 @@
-playerId,Name,HR,AVG,OPS
-666176,Jo Adell,1,.333,1.833
-647351,Abraham Toro,1,.500,1.431
-605421,Michael Perez,0,.571,1.285
-594807,Adam Duvall,4,.327,1.112
-670242,Matt Wallner,1,.368,1.099
-592450,Aaron Judge,19,.291,1.078
-666624,Christopher Morel,12,.301,1.063
-608369,Corey Seager,9,.344,1.030
-666160,Mickey Moniak,6,.325,1.025
-660271,Shohei Ohtani,22,.301,1.006
-656811,Ryan O'Hearn,5,.338,1.004
-666134,Nolan Jones,4,.338,.996
-596103,Austin Slater,1,.431,.992
-645801,Mike Ford,4,.231,.978
-670541,Yordan Alvarez,17,.277,.977
-682998,Corbin Carroll,14,.308,.977
-660670,Ronald Acuna Jr.,15,.327,.970
-518692,Freddie Freeman,13,.325,.961
-670042,Luke Raley,12,.270,.947
-676369,Nelson Velazquez,3,.241,.934
-650333,Luis Arraez,2,.390,.925
-669257,Will Smith,10,.293,.924
-650490,Yandy Diaz,12,.304,.923
-656403,Drew Ellis,2,.222,.920
-669221,Sean Murphy,12,.285,.919
-624585,Jorge Soler,20,.258,.915
-665506,Cristian Pache,1,.333,.913
-665487,Fernando Tatis Jr.,14,.284,.911
-592626,Joc Pederson,7,.277,.906
-605141,Mookie Betts,17,.268,.896
-641856,Billy McKinney,1,.310,.896
-668227,Randy Arozarena,13,.285,.891
-502110,J.D. Martinez,16,.257,.890
-669261,Jack Suwinski,15,.240,.890
-672695,Geraldo Perdomo,5,.302,.888
-595453,Chad Wallach,6,.280,.888
-672275,Patrick Bailey,3,.311,.887
-681351,Logan O'Hoppe,4,.283,.886
-656185,Greg Allen,1,.214,.884
-680574,Matt McLain,3,.325,.883
-669394,Jake Burger,16,.243,.882
-665742,Juan Soto,11,.257,.880
-680118,Dairon Blanco,0,.286,.875
-666163,Ben Rortvedt,0,.286,.873
-624413,Pete Alonso,22,.231,.872
-608070,Jose Ramirez,11,.292,.869
-623912,Harold Ramirez,9,.309,.866
-807799,Masataka Yoshida,7,.309,.862
-664774,LaMonte Wade Jr.,8,.272,.861
-502671,Paul Goldschmidt,11,.284,.858
-666397,Edouard Julien,4,.272,.856
-606115,Orlando Arcia,5,.329,.855
-666182,Bo Bichette,14,.317,.855
-667670,Brent Rooker,13,.256,.854
-669720,Austin Hays,8,.309,.853
-660821,Jesus Sanchez,6,.271,.853
-656180,Riley Adams,2,.267,.851
-592206,Nick Castellanos,8,.315,.851
-641857,Ryan McMahon,10,.271,.846
-673357,Luis Robert Jr.,17,.260,.846
-605204,J.D. Davis,9,.286,.845
-606466,Ketel Marte,10,.287,.845
-665750,Leody Taveras,7,.299,.842
-670770,TJ Friedl,3,.313,.841
-666139,Josh Lowe,11,.281,.841
-641355,Cody Bellinger,7,.272,.838
-677649,Ezequiel Duran,8,.293,.838
-676116,Ryan Noda,7,.247,.838
-641598,Mitch Garver,3,.264,.837
-656775,Cedric Mullins,8,.263,.835
-677551,Wander Franco,8,.299,.834
-666135,Alex Kirilloff,4,.272,.833
-543482,Drew Maggi,0,.333,.833
-666971,Lourdes Gurriel Jr.,10,.279,.832
-621566,Matt Olson,19,.228,.832
-670623,Isaac Paredes,12,.259,.832
-669357,Nolan Gorman,15,.244,.829
-446334,Evan Longoria,9,.236,.828
-642731,Thairo Estrada,9,.295,.827
-673962,Josh Jung,13,.279,.827
-553869,Elias Diaz,7,.300,.826
-668715,Spencer Steer,9,.274,.824
-666150,Dominic Fletcher,2,.308,.823
-543760,Marcus Semien,10,.283,.821
-668939,Adley Rutschman,9,.282,.819
-572233,Christian Walker,13,.261,.819
-547180,Bryce Harper,3,.295,.818
-607680,Kevin Pillar,6,.271,.818
-642350,Jose Siri,12,.227,.818
-657077,Alex Verdugo,5,.294,.817
-672284,Jarred Kelenic,11,.263,.816
-521692,Salvador Perez,14,.274,.816
-657041,Lane Thomas,10,.288,.816
-665804,Miguel Amaya,2,.257,.815
-608701,Rob Refsnyder,1,.284,.813
-474832,Brandon Belt,4,.263,.812
-668804,Bryan Reynolds,7,.278,.812
-545361,Mike Trout,14,.248,.812
-669364,Xavier Edwards,0,.381,.810
-682626,Francisco Alvarez,12,.236,.809
-607043,Brandon Nimmo,6,.286,.809
-608336,Joey Gallo,11,.196,.808
-457705,Andrew McCutchen,9,.262,.808
-542303,Marcell Ozuna,13,.243,.808
-663656,Kyle Tucker,9,.285,.808
-571448,Nolan Arenado,13,.279,.807
-457759,Justin Turner,10,.278,.807
-664056,Harrison Bader,6,.267,.806
-656582,Connor Joe,6,.253,.806
-595281,Kevin Kiermaier,4,.287,.806
-682985,Riley Greene,5,.296,.805
-502054,Tommy Pham,6,.252,.804
-663845,Alfonso Rivas,0,.286,.804
-656305,Matt Chapman,9,.265,.803
-664023,Ian Happ,5,.271,.803
-673548,Seiya Suzuki,6,.274,.803
-592663,J.T. Realmuto,8,.260,.802
-645277,Ozzie Albies,15,.260,.801
-646240,Rafael Devers,17,.243,.801
-666969,Adolis Garcia,15,.255,.801
-518595,Travis d'Arnaud,4,.281,.801
-596142,Gary Sanchez,6,.213,.799
-663993,Nathaniel Lowe,8,.277,.798
-571970,Max Muncy,18,.191,.797
-623993,Anthony Santander,9,.263,.797
-680776,Jarren Duran,3,.291,.795
-691023,Jordan Walker,4,.294,.794
-683002,Gunnar Henderson,10,.236,.792
-656896,Emmanuel Rivera,1,.331,.792
-641511,Jason Delay,1,.304,.789
-545341,Randal Grichuk,1,.298,.789
-624424,Michael Conforto,12,.245,.788
-676801,Chas McCormick,6,.246,.787
-668472,Nick Pratto,4,.279,.787
-456781,Donovan Solano,2,.291,.787
-592273,Brandon Drury,10,.261,.784
-642136,Matt Thaiss,3,.278,.784
-665489,Vladimir Guerrero Jr.,9,.279,.783
-663697,Jonathan India,8,.273,.783
-592885,Christian Yelich,9,.265,.783
-664034,Ty France,6,.282,.782
-518792,Jason Heyward,7,.233,.782
-600869,Jeimer Candelario,8,.252,.780
-666801,Rodolfo Castro,6,.265,.780
-622110,Matt Duffy,1,.316,.780
-641584,Jake Fraley,7,.262,.780
-519203,Anthony Rizzo,11,.265,.779
-681481,Kerry Carpenter,4,.268,.778
-641680,Jonah Heim,7,.279,.778
-669016,Brandon Marsh,5,.261,.778
-527038,Wilmer Flores,7,.258,.776
-681082,Bryson Stott,7,.301,.776
-647304,Josh Naylor,8,.283,.775
-669003,Garrett Mitchell,3,.259,.772
-656941,Kyle Schwarber,19,.177,.771
-670097,Zack Short,3,.274,.771
-663457,Lars Nootbaar,4,.266,.770
-453568,Charlie Blackmon,5,.265,.769
-687263,Zach Neto,6,.259,.769
-573262,Mike Yastrzemski,8,.247,.768
-681546,James Outman,9,.233,.767
-608671,Travis Jankowski,0,.293,.765
-658668,Edward Olivares,5,.261,.765
-593160,Whit Merrifield,2,.307,.763
-663586,Austin Riley,11,.263,.763
-682829,Elly De La Cruz,1,.235,.762
-680777,Ryan Jeffers,3,.235,.762
-545121,Ildemaro Vargas,2,.283,.762
-686469,Vinnie Pasquantino,9,.247,.761
-650391,Eloy Jimenez,7,.260,.760
-680911,Owen Miller,4,.296,.760
-683734,Andrew Vaughn,9,.244,.759
-593428,Xander Bogaerts,7,.268,.758
-650559,Bryan De La Cruz,8,.275,.758
-641943,Josh Palacios,1,.275,.758
-519317,Giancarlo Stanton,6,.221,.757
-641343,Jake Bauers,5,.221,.756
-656541,Sam Hilliard,3,.246,.756
-621020,Dansby Swanson,7,.262,.754
-518626,Josh Donaldson,6,.160,.752
-621550,Patrick Wisdom,14,.196,.752
-650402,Gleyber Torres,11,.252,.751
-661388,William Contreras,8,.240,.750
-665833,Oneil Cruz,1,.250,.750
-571912,Luke Maile,3,.239,.750
-655316,Andruw Monasterio,1,.257,.750
-663837,Matt Vierling,7,.268,.750
-676609,Jose Caballero,2,.238,.748
-592696,Eddie Rosario,10,.250,.748
-640458,Oscar Mercado,0,.310,.747
-643376,Danny Jansen,9,.216,.746
-657136,Connor Wong,6,.238,.746
-664761,Alec Bohm,7,.274,.744
-572816,Corey Dickerson,2,.273,.743
-593871,Jorge Polanco,5,.250,.741
-621439,Byron Buxton,10,.211,.740
-518735,Yasmani Grandal,5,.271,.740
-606192,Teoscar Hernandez,12,.253,.740
-643565,Mike Tauchman,0,.288,.740
-645302,Victor Robles,0,.290,.738
-642133,Rowdy Tellez,12,.231,.738
-543228,Yan Gomes,7,.270,.737
-592669,Hunter Renfroe,12,.243,.736
-602104,Ramon Urias,2,.272,.736
-657557,Paul DeJong,9,.227,.735
-641505,Jonathan Davis,1,.268,.734
-666165,Blake Sabol,7,.248,.734
-656413,Stuart Fairchild,4,.234,.733
-596059,Rougned Odor,4,.216,.733
-514888,Jose Altuve,2,.240,.732
-519058,Mike Moustakas,3,.248,.732
-592192,Mark Canha,5,.245,.730
-673237,Yainer Diaz,4,.258,.730
-621035,Chris Taylor,11,.207,.729
-681807,David Fry,1,.261,.727
-622534,Manuel Margot,3,.265,.725
-608841,Joey Meneses,2,.298,.724
-677594,Julio Rodriguez,12,.240,.724
-543807,George Springer,10,.252,.724
-665161,Jeremy Pena,8,.252,.722
-605119,Brian Anderson,9,.228,.721
-665019,Kody Clemens,4,.254,.721
-592178,Kris Bryant,5,.263,.720
-680977,Brendan Donovan,6,.256,.720
-678246,Miguel Vargas,6,.217,.720
-643289,Mauricio Dubon,3,.290,.718
-670764,Taylor Walls,7,.212,.718
-668709,JJ Bleday,4,.214,.717
-621043,Carlos Correa,9,.215,.717
-668670,Jake Rogers,9,.176,.717
-657757,Gavin Sheets,8,.229,.717
-493329,Yuli Gurriel,3,.262,.716
-676694,Jake Meyers,6,.236,.716
-571657,Kyle Farmer,4,.270,.715
-641432,Willie Calhoun,5,.238,.714
-650489,Willi Castro,5,.250,.714
-605170,Victor Caratini,3,.262,.713
-663538,Nico Hoerner,4,.285,.713
-679529,Spencer Torkelson,7,.238,.712
-686823,Will Brennan,4,.272,.711
-668904,Royce Lewis,2,.283,.711
-663728,Cal Raleigh,9,.214,.711
-608324,Alex Bregman,9,.237,.709
-673490,Ha-Seong Kim,5,.244,.709
-656716,Zach McKinstry,5,.243,.709
-444482,David Peralta,4,.270,.709
-677951,Bobby Witt Jr.,11,.245,.709
-678662,Ezequiel Tovar,6,.255,.708
-672779,Tucupita Marcano,3,.246,.707
-608596,Tom Murphy,2,.233,.707
-595777,Jurickson Profar,5,.243,.707
-622569,Pablo Reyes,0,.305,.706
-671213,Triston Casas,7,.208,.705
-643446,Jeff McNeil,3,.277,.705
-543068,C.J. Cron,6,.228,.703
-570482,Gio Urshela,2,.299,.703
-605137,Josh Bell,6,.233,.701
-596019,Francisco Lindor,12,.211,.700
-682641,Luis Matos,0,.200,.700
-572191,Michael A. Taylor,10,.227,.700
-666185,Dylan Carlson,3,.242,.699
-663616,Trevor Larnach,6,.211,.699
-621028,Kevin Newman,2,.266,.699
-663647,Ke'Bryan Hayes,4,.257,.698
-664040,Brandon Lowe,9,.205,.697
-592518,Manny Machado,8,.248,.697
-671277,Luis Garcia,5,.276,.696
-641487,J.P. Crawford,3,.245,.695
-669222,Nick Senzel,4,.251,.695
-665862,Jazz Chisholm Jr.,7,.229,.694
-630105,Jake Cronenworth,7,.215,.694
-443558,Nelson Cruz,5,.237,.694
-606132,Raimel Tapia,1,.261,.694
-662139,Daulton Varsho,11,.226,.694
-669242,Tommy Edman,7,.234,.693
-467793,Carlos Santana,6,.229,.693
-621493,Taylor Ward,8,.243,.692
-518934,DJ LeMahieu,7,.236,.691
-663886,Tyler Stephenson,5,.249,.690
-656448,Stone Garrett,3,.261,.689
-543305,Aaron Hicks,3,.232,.689
-624428,Adam Frazier,8,.230,.688
-543257,Robbie Grossman,7,.231,.688
-686894,Joey Wiemer,9,.214,.688
-669701,Josh H. Smith,3,.204,.687
-607208,Trea Turner,7,.248,.687
-643217,Andrew Benintendi,1,.265,.685
-663624,Ryan Mountcastle,11,.227,.685
-668731,Akil Baddoo,3,.231,.684
-660688,Keibert Ruiz,8,.235,.684
-665839,Enmanuel Valdez,4,.234,.684
-643265,Garrett Cooper,8,.233,.683
-678225,Ji Hwan Bae,2,.269,.682
-543685,Anthony Rendon,1,.248,.682
-641820,Trey Mancini,4,.246,.680
-642086,Dominic Smith,2,.274,.680
-621563,Joey Wendle,1,.239,.680
-672580,Maikel Garcia,1,.256,.679
-672515,Gabriel Moreno,2,.279,.679
-669477,Casey Schmitt,2,.273,.679
-668800,Andrew Knizner,5,.213,.677
-671289,Tyler Freeman,0,.279,.676
-572204,Trayce Thompson,5,.155,.676
-542194,Christian Bethancourt,7,.227,.675
-680757,Steven Kwan,2,.253,.675
-543309,Kyle Higashioka,3,.240,.673
-500871,Eduardo Escobar,4,.231,.671
-645444,Jose Herrera,0,.255,.671
-656976,Pavin Smith,7,.201,.671
-663368,Blake Perkins,1,.242,.670
-669127,Shea Langeliers,8,.213,.669
-672386,Alejandro Kirk,3,.254,.668
-607054,Jace Peterson,5,.230,.667
-542583,Jesus Aguilar,5,.221,.666
-668843,Conner Capel,0,.258,.665
-624414,Christian Arroyo,2,.240,.664
-656308,Michael Chavis,0,.303,.664
-596129,Daniel Vogelbach,3,.207,.664
-660766,Juan Yepez,2,.214,.664
-665926,Andres Gimenez,4,.242,.663
-641658,Garrett Hampson,1,.243,.663
-664247,Kyle Garlick,2,.179,.662
-642336,Francisco Mejia,2,.238,.662
-592656,Henry Ramos,0,.242,.662
-683146,Brett Baty,4,.229,.661
-657656,Ramon Laureano,5,.221,.661
-676475,Alec Burleson,5,.223,.660
-575929,Willson Contreras,8,.204,.659
-624512,Reese McGuire,0,.265,.659
-667452,Corey Julks,5,.251,.658
-669134,Luis Campusano,1,.238,.656
-672478,Jordan Diaz,4,.217,.656
-666023,Freddy Fermin,3,.200,.656
-602074,Yonathan Daza,0,.270,.655
-663757,Trent Grisham,6,.190,.655
-624641,Edmundo Sosa,4,.248,.655
-670712,Mike Brosseau,4,.205,.653
-571745,Mitch Haniger,4,.230,.653
-642715,Willy Adames,10,.201,.652
-672356,Gabriel Arias,4,.202,.652
-593643,Hanser Alberto,3,.220,.651
-571771,Enrique Hernandez,6,.229,.650
-622761,Jorge Mateo,6,.234,.650
-663796,Coco Montes,1,.200,.650
-660162,Yoan Moncada,3,.232,.649
-553993,Eugenio Suarez,7,.218,.649
-624415,Cavan Biggio,6,.190,.648
-671739,Michael Harris II,5,.224,.648
-516782,Starling Marte,3,.261,.648
-665923,Esteury Ruiz,1,.258,.648
-572761,Matt Carpenter,4,.187,.646
-628451,Andy Ibanez,4,.212,.646
-664913,Seth Brown,4,.206,.644
-669004,MJ Melendez,5,.217,.643
-542932,Jon Berti,2,.259,.640
-542208,Carlos Perez,3,.229,.640
-670869,Livan Soto,0,.222,.639
-543543,Brad Miller,1,.208,.637
-596146,Max Kepler,7,.192,.634
-670032,Nicky Lopez,0,.207,.634
-682928,CJ Abrams,6,.218,.632
-666181,Will Benson,1,.232,.631
-683011,Anthony Volpe,9,.195,.631
-543063,Brandon Crawford,4,.203,.630
-664983,Jake McCarthy,1,.230,.628
-643396,Isiah Kiner-Falefa,3,.238,.624
-686668,Brenton Doyle,4,.217,.623
-687093,Vaughn Grissom,0,.277,.622
-408234,Miguel Cabrera,1,.227,.620
-663630,Ryan McKenna,1,.225,.620
-641933,Tyler O'Neill,2,.228,.620
-595909,Jake Cave,1,.222,.619
-676391,Ernie Clement,0,.333,.619
-573131,Darin Ruf,0,.224,.619
-676480,Jose Barrero,2,.218,.618
-620443,Luis Torrens,0,.250,.618
-668942,Josh Rojas,0,.240,.616
-595879,Javier Baez,5,.233,.614
-664029,Mark Mathias,0,.235,.614
-663743,Nick Fortes,4,.232,.612
-571875,Jake Lamb,2,.216,.612
-623168,Tyler Heineman,0,.211,.611
-642708,Amed Rosario,1,.237,.611
-666211,Taylor Trammell,3,.133,.611
-681146,Jonah Bride,0,.225,.610
-543333,Eric Hosmer,2,.234,.610
-547989,Jose Abreu,4,.231,.607
-680814,Peyton Burdick,1,.182,.603
-641525,Brandon Dixon,2,.204,.602
-664728,Kyle Isbel,1,.209,.602
-664702,Myles Straw,0,.233,.602
-663611,Nick Madrigal,0,.248,.601
-609280,Miguel Andujar,2,.161,.599
-596117,Garrett Stubbs,0,.238,.599
-605612,Harold Castro,0,.263,.594
-640449,Clint Frazier,0,.222,.594
-686681,Michael Massey,4,.217,.594
-669304,Jose Miranda,3,.220,.593
-669743,Alex Call,3,.209,.590
-606992,Eric Haase,3,.222,.590
-641313,Tim Anderson,0,.251,.584
-663853,Romy Gonzalez,3,.194,.584
-676701,Alan Trejo,0,.241,.584
-605113,Nick Ahmed,2,.222,.581
-663698,Joey Bart,0,.231,.581
-641645,Luis Guillorme,0,.225,.581
-665155,Nick Maton,6,.156,.579
-650859,Luis Rengifo,4,.205,.579
-677950,Alek Thomas,2,.195,.579
-624431,Jose Trevino,3,.217,.577
-572287,Mike Zunino,3,.177,.577
-541645,Avisail Garcia,3,.188,.576
-600301,Taylor Motter,0,.200,.573
-663609,Luken Baker,0,.286,.572
-613564,Jason Vosler,3,.161,.571
-669289,Santiago Espinal,1,.209,.569
-614173,Franchy Cordero,4,.148,.568
-543510,James McCann,3,.187,.568
-668930,Brice Turang,3,.205,.561
-656514,Adam Haseley,0,.222,.560
-679631,Terrin Vavra,0,.245,.560
-641531,Hunter Dozier,2,.183,.558
-641786,Kyle Lewis,1,.167,.556
-621311,David Dahl,1,.111,.555
-572228,Luke Voit,0,.221,.549
-665828,Oswaldo Cabrera,4,.195,.548
-543877,Christian Vazquez,0,.220,.548
-455117,Martin Maldonado,4,.178,.547
-689172,Brett Wisely,2,.195,.547
-675656,Kevin Smith,4,.191,.546
-608385,Jesse Winker,0,.204,.546
-693049,Oscar Colas,1,.211,.541
-669742,Darick Hall,0,.222,.541
-571976,Wil Myers,3,.189,.540
-649966,Luis Urias,1,.107,.536
-623205,Andrew Velazquez,0,.143,.536
-672724,Oswald Peraza,0,.188,.535
-500743,Miguel Rojas,0,.231,.535
-572041,AJ Pollock,4,.163,.534
-570731,Jonathan Schoop,0,.202,.534
-666197,Grae Kessinger,0,.200,.533
-670223,Matt Mervis,3,.167,.531
-664059,Sam Haggerty,0,.190,.530
-600303,Tommy La Stella,0,.190,.530
-543281,Josh Harrison,1,.203,.529
-649557,Aledmys Diaz,1,.205,.528
-640492,Jose Azocar,0,.235,.525
-664770,Nathan Lukes,0,.158,.524
-640457,Austin Meadows,0,.238,.524
-681584,David Villar,4,.140,.523
-669352,Bubba Thompson,0,.170,.520
-614177,Franmil Reyes,2,.186,.519
-666906,Jake Alu,0,.231,.517
-644374,Yu Chang,3,.136,.515
-462101,Elvis Andrus,1,.193,.514
-687401,Joey Ortiz,0,.241,.509
-624503,Nick Gordon,2,.176,.504
-669369,Bryce Johnson,1,.175,.502
-660757,Oscar Gonzalez,1,.192,.501
-669023,Jeter Downs,0,.000,.500
-656024,Carlos Perez,0,.250,.500
-592200,Curt Casali,0,.172,.496
-656495,Dalton Guthrie,0,.167,.494
-516416,Jean Segura,1,.190,.493
-671218,Heliot Ramos,0,.192,.491
-666915,Bobby Dalbec,0,.182,.490
-660707,Elehuris Montero,1,.179,.490
-545350,Jake Marisnick,0,.194,.487
-595978,Austin Hedges,1,.179,.484
-671221,Drew Waters,1,.170,.484
-642851,Austin Wynns,0,.191,.484
-664874,Seby Zavala,4,.155,.483
-664954,Brett Sullivan,1,.170,.482
-669397,Nick Allen,1,.196,.476
-607732,Jacob Stallings,0,.163,.474
-669087,Sam Huff,0,.200,.473
-553882,Omar Narvaez,0,.214,.472
-683737,Michael Busch,0,.174,.470
-596847,Ji Man Choi,2,.125,.469
-668901,Mark Vientos,1,.178,.468
-643393,Tony Kemp,1,.154,.462
-543592,Austin Nola,1,.142,.460
-669911,Michael Toglia,0,.174,.457
-571466,Tucker Barnhart,0,.173,.454
-621458,Edwin Rios,1,.071,.449
-623507,Josh Lester,0,.222,.444
-670156,Miles Mastrobuoni,0,.153,.440
-675986,Canaan Smith-Njigba,0,.125,.435
-677587,Brayan Rocchio,0,.214,.428
-543939,Kolten Wong,0,.153,.424
-621438,Tyrone Taylor,1,.160,.419
-665120,Jared Walsh,0,.111,.418
-660644,Vidal Brujan,0,.182,.411
-663527,Tyler Nevin,1,.128,.410
-682073,David Hensley,1,.130,.403
-607461,Matt Beaty,0,.200,.400
-608703,Matt Reynolds,0,.200,.400
-598265,Jackie Bradley Jr.,1,.133,.398
-676356,Jonny Deluca,0,.167,.398
-506702,Sandy Leon,0,.146,.381
-547379,Roberto Perez,0,.133,.368
-686759,TJ Hopkins,0,.167,.367
-672820,Lenyn Sosa,1,.132,.366
-595956,Cam Gallagher,0,.143,.355
-605131,Austin Barnes,0,.110,.338
-621532,Anthony Bemboom,0,.000,.333
-621433,Brett Phillips,0,.077,.327
-642180,Tyler Wade,0,.077,.327
-572138,Jon Singleton,0,.103,.326
-669450,Cooper Hummel,0,.087,.322
-572008,Chris Owings,0,.160,.320
-644433,Chadwick Tromp,0,.125,.313
-642201,Eli White,0,.071,.306
-661531,Brian Serven,0,.130,.304
-641796,Tim Locastro,0,.000,.300
-663967,Cesar Salazar,0,.118,.285
-621512,Tomas Nido,0,.125,.278
-664058,David Fletcher,0,.125,.250
-670276,Cal Stevenson,0,.000,.250
-650619,Meibrys Viloria,0,.000,.250
-668952,Ryan Kreidler,0,.111,.222
-669065,Kyle Stowers,0,.067,.219
-663897,Luke Williams,0,.100,.200
-664238,Dylan Moore,0,.000,.182
-681987,Nate Eaton,0,.058,.167
-656669,Jordan Luplow,0,.000,.143
-501303,Ehire Adrianza,0,.000,.091
-608348,Carson Kelly,0,.000,.083
-518397,Scott Alexander,0,.000,.000
-595751,Jorge Alfaro,0,.000,.000
-641329,Bryan Baker,0,.000,.000
-676625,Rylan Bannon,0,.000,.000
-668663,Tres Barrera,0,.000,.000
-657508,Mike Baumann,0,.000,.000
-621244,Jose Berrios,0,.000,.000
-666374,Matt Brash,0,.000,.000
-656266,J.B. Bukauskas,0,.000,.000
-650893,Genesis Cabrera,0,.000,.000
-666974,Yennier Cano,0,.000,.000
-612434,Miguel Castro,0,.000,.000
-605177,Andrew Chafin,0,.000,.000
-543056,Danny Coulombe,0,.000,.000
-676710,Kutter Crawford,0,.000,.000
-664747,Alexis Diaz,0,.000,.000
-666808,Camilo Doval,0,.000,.000
-641553,Adam Engel,0,.000,.000
-657571,Caleb Ferguson,0,.000,.000
-664314,Estevan Florial,0,.000,.000
-664139,Ian Gibaut,0,.000,.000
-670810,Logan Gillaspie,0,.000,.000
-656464,Kevin Ginkel,0,.000,.000
-624647,Victor Gonzalez,0,.000,.000
-660813,Brusdar Graterol,0,.000,.000
-592351,Jon Gray,0,.000,.000
-571740,Billy Hamilton,0,.000,.000
-621368,Taylor Hearn,0,.000,.000
-664854,Ryan Helsley,0,.000,.000
-660634,Yonny Hernandez,0,.000,.000
-488984,Tommy Hunter,0,.000,.000
-686753,Drey Jameson,0,.000,.000
-445276,Kenley Jansen,0,.000,.000
-641729,Joe Jimenez,0,.000,.000
-572955,Pierce Johnson,0,.000,.000
-667463,John King,0,.000,.000
-656627,Mark Kolozsvary,0,.000,.000
-641835,Tim Mayza,0,.000,.000
-543518,Scott McGough,0,.000,.000
-571946,Shelby Miller,0,.000,.000
-663558,Jovani Moran,0,.000,.000
-682171,Penn Murfee,0,.000,.000
-666310,Bo Naylor,0,.000,.000
-608360,Chris Okey,0,.000,.000
-672335,Cionel Perez,0,.000,.000
-601713,Nick Pivetta,0,.000,.000
-666142,Cole Ragans,0,.000,.000
-643511,Tyler Rogers,0,.000,.000
-605447,Jordan Romano,0,.000,.000
-614179,Jose Ruiz,0,.000,.000
-663485,Cole Sands,0,.000,.000
-642048,Tayler Saucedo,0,.000,.000
-622250,Josh Sborz,0,.000,.000
-670167,John Schreiber,0,.000,.000
-605463,Tayler Scott,0,.000,.000
-623149,Paul Sewald,0,.000,.000
-669699,Braden Shewmake,0,.000,.000
-608371,Lucas Sims,0,.000,.000
-622098,Drew Smith,0,.000,.000
-669256,Nick Solak,0,.000,.000
-608718,Brent Suter,0,.000,.000
-593619,Domingo Tapia,0,.000,.000
-623437,Justin Topa,0,.000,.000
-681911,Alex Vesia,0,.000,.000
+playerId,Name,HR,AVG,OPS,team
+621545,Zach Remillard,0,1.000,2.000,Chicago White Sox
+666176,Jo Adell,1,.333,1.833,Los Angeles Angels
+647351,Abraham Toro,1,.500,1.431,Milwaukee Brewers
+605421,Michael Perez,0,.571,1.285,New York Mets
+683021,Michael Stefanic,0,.500,1.250,Los Angeles Angels
+594807,Adam Duvall,4,.327,1.112,Boston Red Sox
+670242,Matt Wallner,1,.368,1.099,Minnesota Twins
+592450,Aaron Judge,19,.291,1.078,New York Yankees
+608369,Corey Seager,10,.348,1.048,Texas Rangers
+666624,Christopher Morel,12,.292,1.034,Chicago Cubs
+660271,Shohei Ohtani,23,.300,1.011,Los Angeles Angels
+656811,Ryan O'Hearn,5,.342,1.004,Baltimore Orioles
+596103,Austin Slater,1,.431,.992,San Francisco Giants
+682641,Luis Matos,0,.375,.990,San Francisco Giants
+682998,Corbin Carroll,15,.307,.982,Arizona Diamondbacks
+670541,Yordan Alvarez,17,.277,.977,Houston Astros
+666160,Mickey Moniak,6,.309,.975,Los Angeles Angels
+660670,Ronald Acuna Jr.,15,.326,.966,Atlanta Braves
+518692,Freddie Freeman,13,.326,.964,Los Angeles Dodgers
+666134,Nolan Jones,4,.324,.963,Colorado Rockies
+670042,Luke Raley,12,.270,.947,Tampa Bay Rays
+645801,Mike Ford,4,.222,.943,Seattle Mariners
+676369,Nelson Velazquez,3,.241,.934,Chicago Cubs
+669392,Samad Taylor,0,.333,.933,Kansas City Royals
+650490,Yandy Diaz,12,.304,.927,Tampa Bay Rays
+624585,Jorge Soler,20,.260,.923,Miami Marlins
+650333,Luis Arraez,2,.388,.920,Miami Marlins
+656403,Drew Ellis,2,.222,.920,Philadelphia Phillies
+669221,Sean Murphy,12,.287,.920,Atlanta Braves
+592626,Joc Pederson,7,.281,.912,San Francisco Giants
+665487,Fernando Tatis Jr.,14,.285,.912,San Diego Padres
+669257,Will Smith,10,.287,.906,Los Angeles Dodgers
+680574,Matt McLain,3,.328,.899,Cincinnati Reds
+641856,Billy McKinney,1,.310,.896,New York Yankees
+605141,Mookie Betts,17,.269,.893,Los Angeles Dodgers
+606115,Orlando Arcia,6,.339,.892,Atlanta Braves
+681351,Logan O'Hoppe,4,.283,.886,Los Angeles Angels
+669261,Jack Suwinski,15,.239,.886,Pittsburgh Pirates
+664774,LaMonte Wade Jr.,9,.280,.885,San Francisco Giants
+656185,Greg Allen,1,.214,.884,New York Yankees
+502110,J.D. Martinez,16,.257,.883,Los Angeles Dodgers
+668227,Randy Arozarena,13,.280,.878,Tampa Bay Rays
+595453,Chad Wallach,6,.276,.876,Los Angeles Angels
+680118,Dairon Blanco,0,.286,.875,Kansas City Royals
+502671,Paul Goldschmidt,12,.287,.874,St. Louis Cardinals
+665742,Juan Soto,11,.255,.874,San Diego Padres
+666163,Ben Rortvedt,0,.286,.873,New York Yankees
+624413,Pete Alonso,22,.231,.872,New York Mets
+672275,Patrick Bailey,3,.304,.869,San Francisco Giants
+672695,Geraldo Perdomo,5,.294,.868,Arizona Diamondbacks
+669394,Jake Burger,16,.237,.865,Chicago White Sox
+605204,J.D. Davis,10,.291,.865,San Francisco Giants
+807799,Masataka Yoshida,7,.309,.862,Boston Red Sox
+669720,Austin Hays,8,.312,.858,Baltimore Orioles
+666397,Edouard Julien,4,.272,.856,Minnesota Twins
+514888,Jose Altuve,3,.278,.855,Houston Astros
+608070,Jose Ramirez,11,.287,.855,Cleveland Guardians
+666182,Bo Bichette,14,.316,.854,Toronto Blue Jays
+656180,Riley Adams,2,.271,.852,Washington Nationals
+592206,Nick Castellanos,8,.315,.851,Philadelphia Phillies
+606466,Ketel Marte,10,.289,.851,Arizona Diamondbacks
+665506,Cristian Pache,1,.310,.850,Philadelphia Phillies
+623912,Harold Ramirez,9,.302,.848,Tampa Bay Rays
+667670,Brent Rooker,13,.254,.846,Oakland Athletics
+660821,Jesus Sanchez,6,.270,.842,Miami Marlins
+666139,Josh Lowe,11,.281,.841,Tampa Bay Rays
+641857,Ryan McMahon,10,.271,.841,Colorado Rockies
+666971,Lourdes Gurriel Jr.,11,.278,.840,Arizona Diamondbacks
+673962,Josh Jung,14,.280,.839,Texas Rangers
+677649,Ezequiel Duran,8,.294,.838,Texas Rangers
+621566,Matt Olson,20,.229,.838,Atlanta Braves
+641598,Mitch Garver,3,.264,.837,Texas Rangers
+670770,TJ Friedl,3,.307,.836,Cincinnati Reds
+656775,Cedric Mullins,8,.263,.835,Baltimore Orioles
+673357,Luis Robert Jr.,17,.258,.835,Chicago White Sox
+543482,Drew Maggi,0,.333,.833,Pittsburgh Pirates
+572233,Christian Walker,14,.265,.833,Arizona Diamondbacks
+666135,Alex Kirilloff,4,.274,.829,Minnesota Twins
+670623,Isaac Paredes,12,.257,.829,Tampa Bay Rays
+665750,Leody Taveras,7,.294,.829,Texas Rangers
+446334,Evan Longoria,9,.236,.828,Arizona Diamondbacks
+676116,Ryan Noda,7,.246,.828,Oakland Athletics
+668939,Adley Rutschman,10,.281,.828,Baltimore Orioles
+668715,Spencer Steer,9,.278,.828,Cincinnati Reds
+642731,Thairo Estrada,9,.296,.827,San Francisco Giants
+666150,Dominic Fletcher,2,.308,.823,Arizona Diamondbacks
+641355,Cody Bellinger,7,.267,.822,Chicago Cubs
+677551,Wander Franco,8,.295,.822,Tampa Bay Rays
+545361,Mike Trout,14,.252,.820,Los Angeles Angels
+691023,Jordan Walker,5,.295,.820,St. Louis Cardinals
+607680,Kevin Pillar,6,.271,.818,Atlanta Braves
+607043,Brandon Nimmo,7,.285,.817,New York Mets
+657077,Alex Verdugo,5,.294,.817,Boston Red Sox
+657041,Lane Thomas,10,.287,.816,Washington Nationals
+665804,Miguel Amaya,2,.257,.815,Chicago Cubs
+553869,Elias Diaz,7,.295,.815,Colorado Rockies
+669357,Nolan Gorman,15,.240,.814,St. Louis Cardinals
+608701,Rob Refsnyder,1,.284,.813,Boston Red Sox
+474832,Brandon Belt,4,.263,.812,Toronto Blue Jays
+547180,Bryce Harper,3,.296,.812,Philadelphia Phillies
+645277,Ozzie Albies,16,.263,.811,Atlanta Braves
+543760,Marcus Semien,10,.279,.811,Texas Rangers
+669364,Xavier Edwards,0,.381,.810,Miami Marlins
+668804,Bryan Reynolds,7,.278,.810,Pittsburgh Pirates
+592273,Brandon Drury,12,.263,.809,Los Angeles Angels
+666969,Adolis Garcia,15,.260,.809,Texas Rangers
+608336,Joey Gallo,11,.196,.808,Minnesota Twins
+521692,Salvador Perez,14,.272,.808,Kansas City Royals
+457759,Justin Turner,10,.278,.807,Boston Red Sox
+664056,Harrison Bader,6,.267,.806,New York Yankees
+542303,Marcell Ozuna,13,.241,.806,Atlanta Braves
+592663,J.T. Realmuto,8,.261,.806,Philadelphia Phillies
+682985,Riley Greene,5,.296,.805,Detroit Tigers
+663845,Alfonso Rivas,0,.286,.804,San Diego Padres
+672284,Jarred Kelenic,11,.258,.803,Seattle Mariners
+457705,Andrew McCutchen,9,.262,.803,Pittsburgh Pirates
+642350,Jose Siri,12,.222,.802,Tampa Bay Rays
+682626,Francisco Alvarez,12,.237,.801,New York Mets
+646240,Rafael Devers,17,.243,.801,Boston Red Sox
+656305,Matt Chapman,9,.264,.798,Toronto Blue Jays
+663656,Kyle Tucker,9,.281,.798,Houston Astros
+571970,Max Muncy,18,.191,.797,Los Angeles Dodgers
+668472,Nick Pratto,4,.285,.796,Kansas City Royals
+680776,Jarren Duran,3,.291,.795,Boston Red Sox
+663368,Blake Perkins,2,.265,.795,Milwaukee Brewers
+502054,Tommy Pham,6,.252,.795,New York Mets
+663993,Nathaniel Lowe,8,.276,.794,Texas Rangers
+571448,Nolan Arenado,13,.273,.793,St. Louis Cardinals
+682829,Elly De La Cruz,1,.256,.792,Cincinnati Reds
+683002,Gunnar Henderson,10,.237,.792,Baltimore Orioles
+595281,Kevin Kiermaier,4,.282,.792,Toronto Blue Jays
+656896,Emmanuel Rivera,1,.331,.792,Arizona Diamondbacks
+665489,Vladimir Guerrero Jr.,9,.284,.791,Toronto Blue Jays
+664023,Ian Happ,5,.266,.791,Chicago Cubs
+663697,Jonathan India,9,.272,.790,Cincinnati Reds
+656582,Connor Joe,6,.247,.790,Pittsburgh Pirates
+641511,Jason Delay,1,.304,.789,Pittsburgh Pirates
+600869,Jeimer Candelario,8,.256,.788,Washington Nationals
+641680,Jonah Heim,8,.279,.787,Texas Rangers
+676801,Chas McCormick,6,.246,.787,Houston Astros
+673548,Seiya Suzuki,6,.269,.787,Chicago Cubs
+624424,Michael Conforto,12,.245,.784,San Francisco Giants
+623993,Anthony Santander,9,.259,.784,Baltimore Orioles
+592885,Christian Yelich,9,.266,.784,Milwaukee Brewers
+622110,Matt Duffy,1,.316,.780,Kansas City Royals
+641584,Jake Fraley,7,.262,.780,Cincinnati Reds
+519203,Anthony Rizzo,11,.265,.779,New York Yankees
+545341,Randal Grichuk,1,.292,.777,Colorado Rockies
+518792,Jason Heyward,7,.231,.777,Los Angeles Dodgers
+456781,Donovan Solano,2,.286,.777,Minnesota Twins
+527038,Wilmer Flores,7,.258,.776,San Francisco Giants
+518595,Travis d'Arnaud,4,.272,.776,Atlanta Braves
+664034,Ty France,6,.281,.775,Seattle Mariners
+592696,Eddie Rosario,11,.256,.773,Atlanta Braves
+669003,Garrett Mitchell,3,.259,.772,Milwaukee Brewers
+681082,Bryson Stott,7,.300,.771,Philadelphia Phillies
+519058,Mike Moustakas,4,.257,.770,Colorado Rockies
+663457,Lars Nootbaar,4,.266,.770,St. Louis Cardinals
+453568,Charlie Blackmon,5,.265,.769,Colorado Rockies
+687263,Zach Neto,6,.259,.769,Los Angeles Angels
+650391,Eloy Jimenez,8,.258,.768,Chicago White Sox
+669016,Brandon Marsh,5,.257,.767,Philadelphia Phillies
+666801,Rodolfo Castro,6,.259,.766,Pittsburgh Pirates
+656941,Kyle Schwarber,19,.178,.766,Philadelphia Phillies
+608671,Travis Jankowski,0,.293,.765,Texas Rangers
+663586,Austin Riley,11,.265,.764,Atlanta Braves
+681546,James Outman,9,.232,.763,Los Angeles Dodgers
+596142,Gary Sanchez,6,.203,.762,San Diego Padres
+642136,Matt Thaiss,3,.269,.762,Los Angeles Angels
+545121,Ildemaro Vargas,2,.283,.762,Washington Nationals
+686469,Vinnie Pasquantino,9,.247,.761,Kansas City Royals
+670097,Zack Short,3,.267,.760,Detroit Tigers
+593160,Whit Merrifield,2,.306,.759,Toronto Blue Jays
+647304,Josh Naylor,8,.277,.759,Cleveland Guardians
+641943,Josh Palacios,1,.275,.758,Pittsburgh Pirates
+621020,Dansby Swanson,7,.264,.758,Chicago Cubs
+519317,Giancarlo Stanton,6,.221,.757,New York Yankees
+641343,Jake Bauers,5,.221,.756,New York Yankees
+681481,Kerry Carpenter,4,.260,.756,Detroit Tigers
+656541,Sam Hilliard,3,.246,.756,Atlanta Braves
+658668,Edward Olivares,5,.259,.756,Kansas City Royals
+680911,Owen Miller,4,.294,.755,Milwaukee Brewers
+573262,Mike Yastrzemski,8,.242,.755,San Francisco Giants
+650559,Bryan De La Cruz,8,.273,.752,Miami Marlins
+518626,Josh Donaldson,6,.160,.752,New York Yankees
+621550,Patrick Wisdom,14,.196,.752,Chicago Cubs
+593428,Xander Bogaerts,7,.264,.751,San Diego Padres
+650402,Gleyber Torres,11,.252,.751,New York Yankees
+661388,William Contreras,8,.240,.750,Milwaukee Brewers
+665833,Oneil Cruz,1,.250,.750,Pittsburgh Pirates
+673237,Yainer Diaz,5,.257,.750,Houston Astros
+571912,Luke Maile,3,.239,.750,Cincinnati Reds
+655316,Andruw Monasterio,1,.257,.750,Milwaukee Brewers
+683734,Andrew Vaughn,9,.240,.750,Chicago White Sox
+606192,Teoscar Hernandez,12,.257,.747,Seattle Mariners
+640458,Oscar Mercado,0,.310,.747,St. Louis Cardinals
+657136,Connor Wong,6,.238,.746,Boston Red Sox
+676609,Jose Caballero,2,.236,.743,Seattle Mariners
+572816,Corey Dickerson,2,.273,.743,Washington Nationals
+543228,Yan Gomes,7,.271,.743,Chicago Cubs
+680777,Ryan Jeffers,3,.228,.741,Minnesota Twins
+593871,Jorge Polanco,5,.250,.741,Minnesota Twins
+642133,Rowdy Tellez,12,.232,.741,Milwaukee Brewers
+657757,Gavin Sheets,8,.236,.737,Chicago White Sox
+664761,Alec Bohm,7,.271,.733,Philadelphia Phillies
+656413,Stuart Fairchild,4,.234,.733,Cincinnati Reds
+596059,Rougned Odor,4,.216,.733,San Diego Padres
+592669,Hunter Renfroe,12,.242,.733,Los Angeles Angels
+663837,Matt Vierling,7,.262,.733,Detroit Tigers
+518735,Yasmani Grandal,5,.268,.732,Chicago White Sox
+666181,Will Benson,1,.264,.729,Cincinnati Reds
+657557,Paul DeJong,9,.228,.729,St. Louis Cardinals
+645302,Victor Robles,0,.289,.729,Washington Nationals
+621035,Chris Taylor,11,.207,.729,Los Angeles Dodgers
+543807,George Springer,10,.255,.727,Toronto Blue Jays
+621439,Byron Buxton,10,.206,.726,Minnesota Twins
+663538,Nico Hoerner,4,.288,.725,Chicago Cubs
+643376,Danny Jansen,9,.210,.725,Toronto Blue Jays
+677594,Julio Rodriguez,12,.243,.725,Seattle Mariners
+666165,Blake Sabol,7,.245,.725,San Francisco Giants
+643565,Mike Tauchman,0,.280,.724,Chicago Cubs
+650489,Willi Castro,5,.254,.722,Minnesota Twins
+680977,Brendan Donovan,6,.259,.721,St. Louis Cardinals
+608841,Joey Meneses,2,.297,.721,Washington Nationals
+592178,Kris Bryant,5,.263,.720,Colorado Rockies
+665161,Jeremy Pena,8,.252,.720,Houston Astros
+670764,Taylor Walls,7,.214,.720,Tampa Bay Rays
+592192,Mark Canha,5,.241,.719,New York Mets
+643289,Mauricio Dubon,3,.290,.718,Houston Astros
+602104,Ramon Urias,2,.265,.718,Baltimore Orioles
+493329,Yuli Gurriel,3,.262,.716,Miami Marlins
+656716,Zach McKinstry,5,.247,.716,Detroit Tigers
+605119,Brian Anderson,9,.225,.715,Milwaukee Brewers
+641505,Jonathan Davis,1,.259,.715,Miami Marlins
+677951,Bobby Witt Jr.,11,.247,.715,Kansas City Royals
+641432,Willie Calhoun,5,.238,.714,New York Yankees
+662139,Daulton Varsho,12,.231,.713,Toronto Blue Jays
+621493,Taylor Ward,9,.248,.713,Los Angeles Angels
+605170,Victor Caratini,3,.264,.711,Milwaukee Brewers
+643217,Andrew Benintendi,1,.276,.709,Chicago White Sox
+641487,J.P. Crawford,4,.245,.709,Seattle Mariners
+671277,Luis Garcia,5,.280,.709,Washington Nationals
+444482,David Peralta,4,.270,.709,Los Angeles Dodgers
+666185,Dylan Carlson,3,.248,.708,St. Louis Cardinals
+673490,Ha-Seong Kim,5,.245,.708,San Diego Padres
+622534,Manuel Margot,3,.259,.708,Tampa Bay Rays
+678246,Miguel Vargas,6,.213,.708,Los Angeles Dodgers
+672779,Tucupita Marcano,3,.246,.707,Pittsburgh Pirates
+663728,Cal Raleigh,9,.213,.707,Seattle Mariners
+621028,Kevin Newman,2,.271,.706,Cincinnati Reds
+542208,Carlos Perez,4,.248,.706,Oakland Athletics
+622569,Pablo Reyes,0,.305,.706,Boston Red Sox
+668670,Jake Rogers,9,.174,.706,Detroit Tigers
+671213,Triston Casas,7,.208,.705,Boston Red Sox
+572191,Michael A. Taylor,10,.228,.705,Minnesota Twins
+608324,Alex Bregman,9,.234,.704,Houston Astros
+665019,Kody Clemens,4,.248,.704,Philadelphia Phillies
+621043,Carlos Correa,9,.211,.704,Minnesota Twins
+467793,Carlos Santana,6,.235,.704,Pittsburgh Pirates
+679529,Spencer Torkelson,7,.235,.704,Detroit Tigers
+678662,Ezequiel Tovar,6,.255,.704,Colorado Rockies
+621563,Joey Wendle,1,.250,.704,Miami Marlins
+543068,C.J. Cron,6,.228,.703,Colorado Rockies
+570482,Gio Urshela,2,.299,.703,Los Angeles Angels
+596019,Francisco Lindor,12,.211,.702,New York Mets
+686894,Joey Wiemer,10,.215,.702,Milwaukee Brewers
+676694,Jake Meyers,6,.230,.701,Houston Astros
+663886,Tyler Stephenson,5,.253,.701,Cincinnati Reds
+605137,Josh Bell,6,.231,.700,Cleveland Guardians
+686823,Will Brennan,4,.267,.699,Cleveland Guardians
+571657,Kyle Farmer,4,.264,.699,Minnesota Twins
+663616,Trevor Larnach,6,.211,.699,Minnesota Twins
+668904,Royce Lewis,2,.273,.698,Minnesota Twins
+681807,David Fry,1,.250,.697,Cleveland Guardians
+664040,Brandon Lowe,9,.205,.697,Tampa Bay Rays
+668709,JJ Bleday,4,.206,.696,Oakland Athletics
+643446,Jeff McNeil,3,.273,.695,New York Mets
+595777,Jurickson Profar,5,.239,.695,Colorado Rockies
+665862,Jazz Chisholm Jr.,7,.229,.694,Miami Marlins
+443558,Nelson Cruz,5,.237,.694,San Diego Padres
+669242,Tommy Edman,7,.235,.694,St. Louis Cardinals
+663647,Ke'Bryan Hayes,4,.257,.694,Pittsburgh Pirates
+543305,Aaron Hicks,3,.235,.693,Baltimore Orioles
+592518,Manny Machado,8,.248,.693,San Diego Padres
+680757,Steven Kwan,2,.263,.691,Cleveland Guardians
+518934,DJ LeMahieu,7,.236,.691,New York Yankees
+669701,Josh H. Smith,3,.204,.687,Texas Rangers
+624428,Adam Frazier,8,.229,.686,Baltimore Orioles
+663624,Ryan Mountcastle,11,.227,.685,Baltimore Orioles
+668731,Akil Baddoo,3,.231,.684,Detroit Tigers
+660688,Keibert Ruiz,8,.235,.684,Washington Nationals
+665839,Enmanuel Valdez,4,.234,.684,Boston Red Sox
+630105,Jake Cronenworth,7,.211,.683,San Diego Padres
+607208,Trea Turner,7,.247,.683,Philadelphia Phillies
+543685,Anthony Rendon,1,.248,.682,Los Angeles Angels
+543257,Robbie Grossman,7,.228,.681,Texas Rangers
+641820,Trey Mancini,4,.246,.680,Chicago Cubs
+665926,Andres Gimenez,5,.244,.679,Cleveland Guardians
+672515,Gabriel Moreno,2,.279,.679,Arizona Diamondbacks
+656448,Stone Garrett,3,.254,.678,Washington Nationals
+678225,Ji Hwan Bae,2,.269,.677,Pittsburgh Pirates
+668800,Andrew Knizner,5,.213,.677,St. Louis Cardinals
+656976,Pavin Smith,7,.208,.677,Arizona Diamondbacks
+671289,Tyler Freeman,0,.279,.676,Cleveland Guardians
+669222,Nick Senzel,4,.244,.676,Cincinnati Reds
+572204,Trayce Thompson,5,.155,.676,Los Angeles Dodgers
+542194,Christian Bethancourt,7,.227,.675,Tampa Bay Rays
+543309,Kyle Higashioka,3,.240,.673,New York Yankees
+606132,Raimel Tapia,1,.253,.672,Milwaukee Brewers
+500871,Eduardo Escobar,4,.231,.671,New York Mets
+645444,Jose Herrera,0,.255,.671,Arizona Diamondbacks
+642086,Dominic Smith,2,.269,.670,Washington Nationals
+596129,Daniel Vogelbach,3,.210,.670,New York Mets
+683146,Brett Baty,4,.236,.669,New York Mets
+672580,Maikel Garcia,1,.254,.669,Kansas City Royals
+543063,Brandon Crawford,4,.226,.668,San Francisco Giants
+542583,Jesus Aguilar,5,.221,.666,Oakland Athletics
+668843,Conner Capel,0,.258,.665,Oakland Athletics
+643265,Garrett Cooper,8,.227,.665,Miami Marlins
+624414,Christian Arroyo,2,.240,.664,Boston Red Sox
+656308,Michael Chavis,0,.303,.664,Washington Nationals
+672386,Alejandro Kirk,3,.253,.664,Toronto Blue Jays
+660766,Juan Yepez,2,.214,.664,St. Louis Cardinals
+669477,Casey Schmitt,2,.264,.663,San Francisco Giants
+664247,Kyle Garlick,2,.179,.662,Minnesota Twins
+642336,Francisco Mejia,2,.241,.662,Tampa Bay Rays
+608596,Tom Murphy,2,.218,.662,Seattle Mariners
+592656,Henry Ramos,0,.242,.662,Cincinnati Reds
+669004,MJ Melendez,6,.218,.661,Kansas City Royals
+667452,Corey Julks,5,.249,.659,Houston Astros
+624512,Reese McGuire,0,.265,.659,Boston Red Sox
+672356,Gabriel Arias,4,.202,.657,Cleveland Guardians
+657656,Ramon Laureano,5,.220,.657,Oakland Athletics
+669134,Luis Campusano,1,.238,.656,San Diego Padres
+672478,Jordan Diaz,4,.217,.656,Oakland Athletics
+666023,Freddy Fermin,3,.200,.656,Kansas City Royals
+663757,Trent Grisham,6,.192,.656,San Diego Padres
+669127,Shea Langeliers,8,.209,.656,Oakland Athletics
+665923,Esteury Ruiz,1,.261,.656,Oakland Athletics
+642715,Willy Adames,10,.203,.655,Milwaukee Brewers
+602074,Yonathan Daza,0,.270,.655,Colorado Rockies
+670032,Nicky Lopez,0,.213,.655,Kansas City Royals
+641645,Luis Guillorme,1,.240,.654,New York Mets
+670712,Mike Brosseau,4,.205,.653,Milwaukee Brewers
+575929,Willson Contreras,8,.201,.653,St. Louis Cardinals
+571745,Mitch Haniger,4,.230,.653,San Francisco Giants
+664983,Jake McCarthy,2,.233,.653,Arizona Diamondbacks
+641658,Garrett Hampson,1,.237,.652,Miami Marlins
+516782,Starling Marte,3,.261,.652,New York Mets
+607054,Jace Peterson,5,.224,.652,Oakland Athletics
+553993,Eugenio Suarez,7,.218,.652,Seattle Mariners
+593643,Hanser Alberto,3,.220,.651,Chicago White Sox
+571771,Enrique Hernandez,6,.229,.650,Boston Red Sox
+660162,Yoan Moncada,3,.232,.649,Chicago White Sox
+676475,Alec Burleson,5,.219,.647,St. Louis Cardinals
+671739,Michael Harris II,5,.226,.647,Atlanta Braves
+624641,Edmundo Sosa,4,.247,.647,Philadelphia Phillies
+628451,Andy Ibanez,4,.212,.646,Detroit Tigers
+572761,Matt Carpenter,4,.184,.642,San Diego Padres
+542932,Jon Berti,2,.259,.640,Miami Marlins
+622761,Jorge Mateo,6,.231,.640,Baltimore Orioles
+670869,Livan Soto,0,.222,.639,Los Angeles Angels
+543543,Brad Miller,1,.208,.637,Texas Rangers
+596146,Max Kepler,7,.192,.634,Minnesota Twins
+623205,Andrew Velazquez,0,.200,.633,Los Angeles Angels
+624415,Cavan Biggio,6,.185,.631,Toronto Blue Jays
+642708,Amed Rosario,1,.248,.631,Cleveland Guardians
+683011,Anthony Volpe,9,.195,.631,New York Yankees
+408234,Miguel Cabrera,1,.230,.629,Detroit Tigers
+664913,Seth Brown,4,.200,.628,Oakland Athletics
+682928,CJ Abrams,6,.215,.624,Washington Nationals
+643396,Isiah Kiner-Falefa,3,.238,.624,New York Yankees
+664029,Mark Mathias,0,.231,.624,Pittsburgh Pirates
+686668,Brenton Doyle,4,.217,.623,Colorado Rockies
+687093,Vaughn Grissom,0,.277,.622,Atlanta Braves
+663630,Ryan McKenna,1,.225,.620,Baltimore Orioles
+641933,Tyler O'Neill,2,.228,.620,St. Louis Cardinals
+595909,Jake Cave,1,.222,.619,Philadelphia Phillies
+676391,Ernie Clement,0,.333,.619,Toronto Blue Jays
+573131,Darin Ruf,0,.224,.619,Milwaukee Brewers
+676480,Jose Barrero,2,.218,.618,Cincinnati Reds
+663743,Nick Fortes,4,.234,.618,Miami Marlins
+620443,Luis Torrens,0,.250,.618,Chicago Cubs
+605612,Harold Castro,0,.271,.617,Colorado Rockies
+571875,Jake Lamb,2,.216,.612,Los Angeles Angels
+623168,Tyler Heineman,0,.211,.611,Toronto Blue Jays
+666211,Taylor Trammell,3,.133,.611,Seattle Mariners
+543333,Eric Hosmer,2,.234,.610,Chicago Cubs
+663796,Coco Montes,1,.188,.610,Colorado Rockies
+595879,Javier Baez,5,.230,.607,Detroit Tigers
+668942,Josh Rojas,0,.236,.607,Arizona Diamondbacks
+547989,Jose Abreu,4,.231,.605,Houston Astros
+680814,Peyton Burdick,1,.182,.603,Miami Marlins
+683737,Michael Busch,0,.231,.602,Los Angeles Dodgers
+641525,Brandon Dixon,2,.204,.602,San Diego Padres
+664728,Kyle Isbel,1,.209,.602,Kansas City Royals
+663611,Nick Madrigal,0,.248,.601,Chicago Cubs
+609280,Miguel Andujar,2,.161,.599,Pittsburgh Pirates
+596117,Garrett Stubbs,0,.238,.599,Philadelphia Phillies
+686681,Michael Massey,4,.217,.594,Kansas City Royals
+669304,Jose Miranda,3,.220,.593,Minnesota Twins
+664702,Myles Straw,0,.229,.593,Cleveland Guardians
+669743,Alex Call,3,.209,.590,Washington Nationals
+606992,Eric Haase,3,.221,.586,Detroit Tigers
+641313,Tim Anderson,0,.250,.584,Chicago White Sox
+663853,Romy Gonzalez,3,.194,.584,Chicago White Sox
+676701,Alan Trejo,0,.241,.584,Colorado Rockies
+640449,Clint Frazier,0,.217,.582,Chicago White Sox
+605113,Nick Ahmed,2,.222,.581,Arizona Diamondbacks
+663698,Joey Bart,0,.231,.581,San Francisco Giants
+665155,Nick Maton,6,.158,.581,Detroit Tigers
+677950,Alek Thomas,2,.195,.579,Arizona Diamondbacks
+650859,Luis Rengifo,4,.206,.578,Los Angeles Angels
+624431,Jose Trevino,3,.217,.577,New York Yankees
+572287,Mike Zunino,3,.177,.577,Cleveland Guardians
+541645,Avisail Garcia,3,.188,.576,Miami Marlins
+543510,James McCann,3,.194,.576,Baltimore Orioles
+681146,Jonah Bride,0,.209,.573,Oakland Athletics
+600301,Taylor Motter,0,.200,.573,St. Louis Cardinals
+663609,Luken Baker,0,.286,.572,St. Louis Cardinals
+613564,Jason Vosler,3,.161,.571,Cincinnati Reds
+614173,Franchy Cordero,4,.148,.568,New York Yankees
+669289,Santiago Espinal,1,.207,.563,Toronto Blue Jays
+668930,Brice Turang,3,.205,.561,Milwaukee Brewers
+656514,Adam Haseley,0,.222,.560,Chicago White Sox
+679631,Terrin Vavra,0,.245,.560,Baltimore Orioles
+641531,Hunter Dozier,2,.183,.558,Kansas City Royals
+641786,Kyle Lewis,1,.167,.556,Arizona Diamondbacks
+621311,David Dahl,1,.111,.555,San Diego Padres
+572228,Luke Voit,0,.221,.549,Milwaukee Brewers
+665828,Oswaldo Cabrera,4,.195,.548,New York Yankees
+543877,Christian Vazquez,0,.220,.548,Minnesota Twins
+455117,Martin Maldonado,4,.178,.547,Houston Astros
+681584,David Villar,4,.149,.547,San Francisco Giants
+689172,Brett Wisely,2,.195,.547,San Francisco Giants
+675656,Kevin Smith,4,.191,.546,Oakland Athletics
+693049,Oscar Colas,1,.211,.541,Chicago White Sox
+669742,Darick Hall,0,.222,.541,Philadelphia Phillies
+543281,Josh Harrison,1,.211,.541,Philadelphia Phillies
+571976,Wil Myers,3,.189,.540,Cincinnati Reds
+672724,Oswald Peraza,0,.188,.535,New York Yankees
+570731,Jonathan Schoop,0,.202,.534,Detroit Tigers
+670223,Matt Mervis,3,.167,.531,Chicago Cubs
+649557,Aledmys Diaz,1,.208,.530,Oakland Athletics
+664059,Sam Haggerty,0,.190,.530,Seattle Mariners
+600303,Tommy La Stella,0,.190,.530,Seattle Mariners
+572041,AJ Pollock,4,.162,.529,Seattle Mariners
+671221,Drew Waters,1,.180,.528,Kansas City Royals
+608385,Jesse Winker,0,.196,.528,Milwaukee Brewers
+640492,Jose Azocar,0,.235,.525,San Diego Padres
+500743,Miguel Rojas,0,.227,.525,Los Angeles Dodgers
+664770,Nathan Lukes,0,.158,.524,Toronto Blue Jays
+640457,Austin Meadows,0,.238,.524,Detroit Tigers
+669352,Bubba Thompson,0,.170,.520,Texas Rangers
+614177,Franmil Reyes,2,.186,.519,Kansas City Royals
+666906,Jake Alu,0,.231,.517,Washington Nationals
+644374,Yu Chang,3,.136,.515,Boston Red Sox
+462101,Elvis Andrus,1,.193,.511,Chicago White Sox
+649966,Luis Urias,1,.097,.508,Milwaukee Brewers
+624503,Nick Gordon,2,.176,.504,Minnesota Twins
+669369,Bryce Johnson,1,.175,.502,San Francisco Giants
+660757,Oscar Gonzalez,1,.192,.501,Cleveland Guardians
+669023,Jeter Downs,0,.000,.500,Washington Nationals
+656024,Carlos Perez,0,.250,.500,Chicago White Sox
+656495,Dalton Guthrie,0,.167,.494,Philadelphia Phillies
+516416,Jean Segura,1,.190,.493,Miami Marlins
+671218,Heliot Ramos,0,.192,.491,San Francisco Giants
+666915,Bobby Dalbec,0,.182,.490,Boston Red Sox
+660707,Elehuris Montero,1,.179,.490,Colorado Rockies
+664954,Brett Sullivan,1,.170,.482,San Diego Padres
+669397,Nick Allen,1,.196,.476,Oakland Athletics
+592200,Curt Casali,0,.164,.476,Cincinnati Reds
+607732,Jacob Stallings,0,.163,.474,Miami Marlins
+642851,Austin Wynns,0,.188,.474,Colorado Rockies
+595978,Austin Hedges,1,.175,.473,Pittsburgh Pirates
+669087,Sam Huff,0,.200,.473,Texas Rangers
+553882,Omar Narvaez,0,.214,.472,New York Mets
+643393,Tony Kemp,1,.159,.471,Oakland Athletics
+596847,Ji Man Choi,2,.125,.469,Pittsburgh Pirates
+664874,Seby Zavala,4,.150,.469,Chicago White Sox
+668901,Mark Vientos,1,.178,.468,New York Mets
+545350,Jake Marisnick,0,.184,.462,Detroit Tigers
+687401,Joey Ortiz,0,.219,.462,Baltimore Orioles
+543592,Austin Nola,1,.142,.460,San Diego Padres
+669911,Michael Toglia,0,.174,.457,Colorado Rockies
+571466,Tucker Barnhart,0,.173,.454,Chicago Cubs
+621458,Edwin Rios,1,.071,.449,Chicago Cubs
+675986,Canaan Smith-Njigba,0,.125,.435,Pittsburgh Pirates
+677587,Brayan Rocchio,0,.214,.428,Cleveland Guardians
+670156,Miles Mastrobuoni,0,.148,.426,Chicago Cubs
+666197,Grae Kessinger,0,.125,.425,Houston Astros
+543939,Kolten Wong,0,.153,.424,Seattle Mariners
+676356,Jonny Deluca,0,.188,.423,Los Angeles Dodgers
+623507,Josh Lester,0,.211,.422,Baltimore Orioles
+621438,Tyrone Taylor,1,.160,.419,Milwaukee Brewers
+665120,Jared Walsh,0,.111,.418,Los Angeles Angels
+660644,Vidal Brujan,0,.182,.411,Tampa Bay Rays
+663527,Tyler Nevin,1,.128,.410,Detroit Tigers
+682073,David Hensley,1,.130,.403,Houston Astros
+607461,Matt Beaty,0,.200,.400,San Francisco Giants
+608703,Matt Reynolds,0,.200,.400,Cincinnati Reds
+598265,Jackie Bradley Jr.,1,.133,.398,Kansas City Royals
+506702,Sandy Leon,0,.146,.381,Texas Rangers
+547379,Roberto Perez,0,.133,.368,San Francisco Giants
+686759,TJ Hopkins,0,.167,.367,Cincinnati Reds
+672820,Lenyn Sosa,1,.132,.366,Chicago White Sox
+595956,Cam Gallagher,0,.138,.342,Cleveland Guardians
+605131,Austin Barnes,0,.107,.339,Los Angeles Dodgers
+621532,Anthony Bemboom,0,.000,.333,Baltimore Orioles
+621433,Brett Phillips,0,.077,.327,Los Angeles Angels
+572138,Jon Singleton,0,.103,.326,Milwaukee Brewers
+669450,Cooper Hummel,0,.087,.322,Seattle Mariners
+572008,Chris Owings,0,.160,.320,Pittsburgh Pirates
+644433,Chadwick Tromp,0,.125,.313,Atlanta Braves
+642201,Eli White,0,.071,.306,Atlanta Braves
+661531,Brian Serven,0,.130,.304,Colorado Rockies
+641796,Tim Locastro,0,.000,.300,New York Mets
+642180,Tyler Wade,0,.067,.289,Oakland Athletics
+663967,Cesar Salazar,0,.118,.285,Houston Astros
+621512,Tomas Nido,0,.125,.278,New York Mets
+664058,David Fletcher,0,.125,.250,Los Angeles Angels
+670276,Cal Stevenson,0,.000,.250,San Francisco Giants
+650619,Meibrys Viloria,0,.000,.250,Cleveland Guardians
+668952,Ryan Kreidler,0,.111,.222,Detroit Tigers
+669065,Kyle Stowers,0,.067,.219,Baltimore Orioles
+664238,Dylan Moore,0,.000,.214,Seattle Mariners
+663897,Luke Williams,0,.100,.200,Los Angeles Dodgers
+681987,Nate Eaton,0,.058,.167,Kansas City Royals
+656669,Jordan Luplow,0,.000,.143,Toronto Blue Jays
+501303,Ehire Adrianza,0,.000,.091,Atlanta Braves
+608348,Carson Kelly,0,.000,.067,Arizona Diamondbacks
+686654,Ty Adcock,0,.000,.000,Seattle Mariners
+518397,Scott Alexander,0,.000,.000,San Francisco Giants
+595751,Jorge Alfaro,0,.000,.000,Colorado Rockies
+641329,Bryan Baker,0,.000,.000,Baltimore Orioles
+676625,Rylan Bannon,0,.000,.000,Houston Astros
+668663,Tres Barrera,0,.000,.000,St. Louis Cardinals
+657508,Mike Baumann,0,.000,.000,Baltimore Orioles
+621244,Jose Berrios,0,.000,.000,Toronto Blue Jays
+666374,Matt Brash,0,.000,.000,Seattle Mariners
+656266,J.B. Bukauskas,0,.000,.000,Seattle Mariners
+650893,Genesis Cabrera,0,.000,.000,St. Louis Cardinals
+666974,Yennier Cano,0,.000,.000,Baltimore Orioles
+612434,Miguel Castro,0,.000,.000,Arizona Diamondbacks
+605177,Andrew Chafin,0,.000,.000,Arizona Diamondbacks
+543056,Danny Coulombe,0,.000,.000,Baltimore Orioles
+676710,Kutter Crawford,0,.000,.000,Boston Red Sox
+664747,Alexis Diaz,0,.000,.000,Cincinnati Reds
+666808,Camilo Doval,0,.000,.000,San Francisco Giants
+641553,Adam Engel,0,.000,.000,San Diego Padres
+657571,Caleb Ferguson,0,.000,.000,Los Angeles Dodgers
+664314,Estevan Florial,0,.000,.000,New York Yankees
+664139,Ian Gibaut,0,.000,.000,Cincinnati Reds
+502043,Kyle Gibson,0,.000,.000,Baltimore Orioles
+670810,Logan Gillaspie,0,.000,.000,Baltimore Orioles
+656464,Kevin Ginkel,0,.000,.000,Arizona Diamondbacks
+624647,Victor Gonzalez,0,.000,.000,Los Angeles Dodgers
+660813,Brusdar Graterol,0,.000,.000,Los Angeles Dodgers
+592351,Jon Gray,0,.000,.000,Texas Rangers
+571740,Billy Hamilton,0,.000,.000,Chicago White Sox
+621368,Taylor Hearn,0,.000,.000,Texas Rangers
+664854,Ryan Helsley,0,.000,.000,St. Louis Cardinals
+660634,Yonny Hernandez,0,.000,.000,Los Angeles Dodgers
+488984,Tommy Hunter,0,.000,.000,New York Mets
+686753,Drey Jameson,0,.000,.000,Arizona Diamondbacks
+445276,Kenley Jansen,0,.000,.000,Boston Red Sox
+641729,Joe Jimenez,0,.000,.000,Atlanta Braves
+572955,Pierce Johnson,0,.000,.000,Colorado Rockies
+667463,John King,0,.000,.000,Texas Rangers
+656627,Mark Kolozsvary,0,.000,.000,Baltimore Orioles
+641835,Tim Mayza,0,.000,.000,Toronto Blue Jays
+543518,Scott McGough,0,.000,.000,Arizona Diamondbacks
+571946,Shelby Miller,0,.000,.000,Los Angeles Dodgers
+663558,Jovani Moran,0,.000,.000,Minnesota Twins
+682171,Penn Murfee,0,.000,.000,Seattle Mariners
+666310,Bo Naylor,0,.000,.000,Cleveland Guardians
+608360,Chris Okey,0,.000,.000,Los Angeles Angels
+672335,Cionel Perez,0,.000,.000,Baltimore Orioles
+601713,Nick Pivetta,0,.000,.000,Boston Red Sox
+666142,Cole Ragans,0,.000,.000,Texas Rangers
+643511,Tyler Rogers,0,.000,.000,San Francisco Giants
+605447,Jordan Romano,0,.000,.000,Toronto Blue Jays
+614179,Jose Ruiz,0,.000,.000,Arizona Diamondbacks
+663485,Cole Sands,0,.000,.000,Minnesota Twins
+642048,Tayler Saucedo,0,.000,.000,Seattle Mariners
+622250,Josh Sborz,0,.000,.000,Texas Rangers
+670167,John Schreiber,0,.000,.000,Boston Red Sox
+605463,Tayler Scott,0,.000,.000,Los Angeles Dodgers
+623149,Paul Sewald,0,.000,.000,Seattle Mariners
+669699,Braden Shewmake,0,.000,.000,Atlanta Braves
+608371,Lucas Sims,0,.000,.000,Cincinnati Reds
+622098,Drew Smith,0,.000,.000,New York Mets
+669256,Nick Solak,0,.000,.000,Detroit Tigers
+608718,Brent Suter,0,.000,.000,Colorado Rockies
+593619,Domingo Tapia,0,.000,.000,San Diego Padres
+623437,Justin Topa,0,.000,.000,Seattle Mariners
+681911,Alex Vesia,0,.000,.000,Los Angeles Dodgers
