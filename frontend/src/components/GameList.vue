@@ -67,7 +67,7 @@
                 </v-sheet>
               </v-col>
               <v-col>
-                <v-sheet class="bg-gamebgcolor text-end">
+                <v-sheet class="bg-gamebgcolor text-center">
                   {{ project.home_score }}
                 </v-sheet>
               </v-col>
@@ -93,7 +93,7 @@
                 </v-sheet>
               </v-col>
               <v-col>
-                <v-sheet class="bg-gamebgcolor text-end">
+                <v-sheet class="bg-gamebgcolor text-center">
                   {{ project.away_score }}
                 </v-sheet>
               </v-col>
@@ -181,8 +181,6 @@ export default {
         match.team_home_winchance = Number.parseFloat(1 - match.team_away_winchance).toFixed(2);
         match.team_away_odds = Number.parseFloat(match.team_away_odds).toFixed(2);
         match.team_home_odds = Number.parseFloat(match.team_home_odds).toFixed(2);
-        match.score1 = '-';
-        match.score2 = '-';
         match.team_away_bet = this.isRecommended(match.team_away_winchance, match.team_away_odds);
         match.team_home_bet = this.isRecommended(match.team_home_winchance, match.team_home_odds);
       })
@@ -222,8 +220,8 @@ export default {
 }
 
 .player-image {
-  width: 30px;
-  height: auto;
+  width: auto;
+  height: 30px;
   margin-right: 5px;
 }
 </style>
