@@ -27,13 +27,13 @@
       <v-row>
         <v-col cols="6" v-for="project in matches" :key="project.ip">
           <v-card class="ma-3 px-16 py-10 bg-gamebgcolor rounded-xl">
-            <v-row>
+            <!-- <v-row>
               <v-col>
                 <v-sheet class="bg-gamebgcolor text-center">
                   (Title here)
                 </v-sheet>
               </v-col>
-            </v-row>
+            </v-row> -->
             <v-row>
               <v-col cols="6">
                 <v-sheet class="bg-gamebgcolor">
