@@ -27,13 +27,13 @@
       <v-row>
         <v-col cols="6" v-for="project in matches" :key="project.ip">
           <v-card class="ma-3 px-16 py-10 bg-gamebgcolor rounded-xl">
-            <v-row>
+            <!-- <v-row>
               <v-col>
                 <v-sheet class="bg-gamebgcolor text-center">
                   (Title here)
                 </v-sheet>
               </v-col>
-            </v-row>
+            </v-row> -->
             <v-row>
               <v-col cols="6">
                 <v-sheet class="bg-gamebgcolor">
@@ -61,11 +61,14 @@
                 <v-sheet class="bg-gamebgcolor" style="white-space: nowrap;">
                   <img :src="getImageUrl(project.team_home)" alt="" class="player-image" />
                   {{ project.team_home }}
+                  <v-chip class="ma-2" color="green-accent-2" variant="outlined" v-if="project.team_home_bet">
+                    recommened!!
+                  </v-chip>
                 </v-sheet>
               </v-col>
               <v-col>
                 <v-sheet class="bg-gamebgcolor text-end">
-                  {{ project.score1 }}
+                  {{ project.home_score }}
                 </v-sheet>
               </v-col>
               <v-col>
@@ -84,11 +87,14 @@
                 <v-sheet class="bg-gamebgcolor" style="white-space: nowrap;">
                   <img :src="getImageUrl(project.team_away)" alt="" class="player-image" />
                   {{ project.team_away }}
+                  <v-chip class="ma-2" color="green-accent-2" variant="outlined" v-if="project.team_away_bet">
+                    recommened!!
+                  </v-chip>
                 </v-sheet>
               </v-col>
               <v-col>
                 <v-sheet class="bg-gamebgcolor text-end">
-                  {{ project.score2 }}
+                  {{ project.away_score }}
                 </v-sheet>
               </v-col>
               <v-col>
@@ -177,6 +183,8 @@ export default {
         match.team_home_odds = Number.parseFloat(match.team_home_odds).toFixed(2);
         match.score1 = '-';
         match.score2 = '-';
+        match.team_away_bet = this.isRecommended(match.team_away_winchance, match.team_away_odds);
+        match.team_home_bet = this.isRecommended(match.team_home_winchance, match.team_home_odds);
       })
       return;
     },
@@ -195,6 +203,10 @@ export default {
           console.error(error);
         });
       return;
+    },
+    isRecommended(winChance, odd) {
+      //y = 4.7033-0.0509x by observed
+      return odd >= 4.7033 - 0.0509 * winChance;
     }
   },
 };
