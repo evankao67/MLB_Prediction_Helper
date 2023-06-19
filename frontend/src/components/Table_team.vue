@@ -11,8 +11,8 @@
       <tbody>
         <tr v-for="item in teams" :key="item.team_id">
           <td>
-            <img :src="getImageUrl(item.team)" alt="Player Image" class="player-image" />
-            {{ item.team }}
+            <img :src="getImageUrl(item.team_name)" alt="Player Image" class="player-image" />
+            {{ item.team_name }}
           </td>
           <td>{{ item.win_rate }}</td>
           <td>{{ item.win }}</td>
