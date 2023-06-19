@@ -13,7 +13,7 @@
           <!-- <img :src="getImageUrl(item.name)" alt="Player Image" class="player-image" /> -->
           {{ player.Name }}
         </td>
-        <td>{{ player.Win }}</td>
+        <td>{{ player.team }}</td>
         <td>{{ player.WHIP }}</td>
       </tr>
     </tbody>
@@ -25,18 +25,30 @@ import axios from 'axios'
 import { onMounted, ref } from 'vue'
 
 const mlbplayer = ref({});
+const allPlayer = ref({});
 
-onMounted(() => {
-  console.log('mounted!');
-  axios
+onMounted(async () => {
+  await axios
     .get('http://localhost:3001/api/pitchers/Whip')
     .then(response => {
       mlbplayer.value = response.data;
-      console.log(response.data);
     })
     .catch(error => {
       console.error(error);
     });
+  await axios
+    .get('http://localhost:3001/api/players')
+    .then(response => {
+      allPlayer.value = response.data;
+    })
+    .catch(error => {
+      console.error(error);
+    });
+  mlbplayer.value.map((player) => {
+    player.team = allPlayer.value.find(plyr => plyr.player_id == player.player_id).team;
+    if (player.team == "null")
+      player.team = "-"
+  })
 });
 
 function getImageUrl(name) {

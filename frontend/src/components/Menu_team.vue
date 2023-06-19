@@ -34,7 +34,6 @@ onMounted(() => {
     .get('http://localhost:3001/api/teams')
     .then(response => {
       teams.value = response.data;
-      console.log(response.data);
     })
     .catch(error => {
       console.error(error);
@@ -42,7 +41,6 @@ onMounted(() => {
 });
 
 function getImageUrl(name) {
-  // 根据球员名称动态生成图片路径
   return `/src/assets/images/${name}.jpg`;
 }
 </script>
@@ -50,9 +48,6 @@ function getImageUrl(name) {
 <style>
 .team-image {
   width: 30px;
-  /* 根据需要设置图片的宽度 */
   height: auto;
-  /* 根据需要设置图片的高度 */
   margin-right: 5px;
-  /* 根据需要设置图片与名称之间的间距 */
 }</style>
