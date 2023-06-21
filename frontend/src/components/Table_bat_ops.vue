@@ -24,7 +24,6 @@ import axios from 'axios'
 import { onMounted, ref } from 'vue'
 
 const mlbplayer = ref({});
-const allPlayer = ref({});
 
 onMounted(async () => {
   await axios
@@ -35,19 +34,6 @@ onMounted(async () => {
     .catch(error => {
       console.error(error);
     });
-  await axios
-    .get('http://localhost:3001/api/players')
-    .then(response => {
-      allPlayer.value = response.data;
-    })
-    .catch(error => {
-      console.error(error);
-    });
-  mlbplayer.value.map((player) => {
-    player.team = allPlayer.value.find(plyr => plyr.player_id == player.player_id).team;
-    if (player.team == "null")
-      player.team = "-"
-  })
 });
 
 function getImageUrl(name) {
